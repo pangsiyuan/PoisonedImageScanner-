@@ -1,0 +1,375 @@
+2023-10-17T08:25:33.908686860Z  2023-10-17 08:25:33,907 CRIT Supervisor running as root (no user in config file)
+2023-10-17T08:25:33.908712233Z  2023-10-17 08:25:33,908 INFO supervisord started with pid 1
+2023-10-17T08:25:34.914961640Z  2023-10-17 08:25:34,910 INFO spawned: 'crontabui' with pid 9
+2023-10-17T08:25:34.914980080Z  2023-10-17 08:25:34,911 INFO spawned: 'crontab' with pid 10
+2023-10-17T08:25:34.915954818Z  crond[10]: crond (busybox 1.25.1) started, log level 2
+2023-10-17T08:25:34.915969214Z  crond[10]: user:root entry:*/15	*	*	*	*	run-parts /etc/periodic/15min
+2023-10-17T08:25:34.915974069Z  crond[10]: user:root entry:0	*	*	*	*	run-parts /etc/periodic/hourly
+2023-10-17T08:25:34.915977994Z  crond[10]: user:root entry:0	2	*	*	*	run-parts /etc/periodic/daily
+2023-10-17T08:25:34.915981886Z  crond[10]: user:root entry:0	3	*	*	6	run-parts /etc/periodic/weekly
+2023-10-17T08:25:34.915985779Z  crond[10]: user:root entry:0	5	1	*	*	run-parts /etc/periodic/monthly
+2023-10-17T08:25:36.267430225Z  2023-10-17 08:25:36,267 INFO success: crontabui entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T08:25:36.267444874Z  2023-10-17 08:25:36,267 INFO success: crontab entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T08:26:00.916336593Z  crond[10]: user:root entry:*/15	*	*	*	*	run-parts /etc/periodic/15min
+2023-10-17T08:26:00.916358913Z  crond[10]: user:root entry:0	*	*	*	*	run-parts /etc/periodic/hourly
+2023-10-17T08:26:00.916361621Z  crond[10]: user:root entry:0	2	*	*	*	run-parts /etc/periodic/daily
+2023-10-17T08:26:00.916364052Z  crond[10]: user:root entry:0	3	*	*	6	run-parts /etc/periodic/weekly
+2023-10-17T08:26:00.916375979Z  crond[10]: user:root entry:0	5	1	*	*	run-parts /etc/periodic/monthly
+2023-10-17T08:26:00.916380216Z  crond[10]: wakeup dt=26
+2023-10-17T08:26:00.916384194Z  crond[10]: file root:
+2023-10-17T08:26:00.916386540Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:26:00.916388921Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:26:00.916391156Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:26:00.916393449Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:26:00.916395724Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:27:00.916551829Z  crond[10]: wakeup dt=60
+2023-10-17T08:27:00.916568339Z  crond[10]: file root:
+2023-10-17T08:27:00.916570750Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:27:00.916573098Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:27:00.916575456Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:27:00.916578055Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:27:00.916587706Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:28:00.916751678Z  crond[10]: wakeup dt=60
+2023-10-17T08:28:00.916772264Z  crond[10]: file root:
+2023-10-17T08:28:00.916774806Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:28:00.916777196Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:28:00.916779558Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:28:00.916781998Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:28:00.916784315Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:29:00.916965505Z  crond[10]: wakeup dt=60
+2023-10-17T08:29:00.916994831Z  crond[10]: file root:
+2023-10-17T08:29:00.916997333Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:29:00.916999646Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:29:00.917001911Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:29:00.917004172Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:29:00.917006428Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:30:00.917241226Z  crond[10]: wakeup dt=60
+2023-10-17T08:30:00.917264388Z  crond[10]: file root:
+2023-10-17T08:30:00.917267039Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:30:00.917269439Z  crond[10]:  job: 0 run-parts /etc/periodic/15min
+2023-10-17T08:30:00.917271820Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:30:00.917274129Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:30:00.917276445Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:30:00.917278687Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:30:00.917387731Z  crond[20]: child running /bin/sh
+2023-10-17T08:30:00.917760730Z  crond[10]: USER root pid  20 cmd run-parts /etc/periodic/15min
+2023-10-17T08:30:10.918019191Z  crond[10]: wakeup dt=10
+2023-10-17T08:31:00.918163614Z  crond[10]: wakeup dt=50
+2023-10-17T08:31:00.918189544Z  crond[10]: file root:
+2023-10-17T08:31:00.918192009Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:31:00.918194357Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:31:00.918196624Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:31:00.918198869Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:31:00.918201205Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:32:00.918358957Z  crond[10]: wakeup dt=60
+2023-10-17T08:32:00.918394587Z  crond[10]: file root:
+2023-10-17T08:32:00.918397258Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:32:00.918408848Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:32:00.918411048Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:32:00.918413147Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:32:00.918415189Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:33:00.918577079Z  crond[10]: wakeup dt=60
+2023-10-17T08:33:00.918603516Z  crond[10]: file root:
+2023-10-17T08:33:00.918606057Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:33:00.918608406Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:33:00.918611060Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:33:00.918613366Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:33:00.918616134Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:34:00.918785280Z  crond[10]: wakeup dt=60
+2023-10-17T08:34:00.918808391Z  crond[10]: file root:
+2023-10-17T08:34:00.918811272Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:34:00.918813949Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:34:00.918816337Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:34:00.918818655Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:34:00.918820972Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:35:00.918975974Z  crond[10]: wakeup dt=60
+2023-10-17T08:35:00.918997178Z  crond[10]: file root:
+2023-10-17T08:35:00.919001326Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:35:00.919003888Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:35:00.919006634Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:35:00.919008898Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:35:00.919011115Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:36:00.919163741Z  crond[10]: wakeup dt=60
+2023-10-17T08:36:00.919177939Z  crond[10]: file root:
+2023-10-17T08:36:00.919180520Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:36:00.919187212Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:36:00.919189611Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:36:00.919192001Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:36:00.919194292Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:37:00.919378016Z  crond[10]: wakeup dt=60
+2023-10-17T08:37:00.919397185Z  crond[10]: file root:
+2023-10-17T08:37:00.919400862Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:37:00.919405546Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:37:00.919411385Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:37:00.919413584Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:37:00.919415566Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:38:00.919616318Z  crond[10]: wakeup dt=60
+2023-10-17T08:38:00.919632413Z  crond[10]: file root:
+2023-10-17T08:38:00.919636500Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:38:00.919640919Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:38:00.919643471Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:38:00.919645779Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:38:00.919648017Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:39:00.919787154Z  crond[10]: wakeup dt=60
+2023-10-17T08:39:00.919802767Z  crond[10]: file root:
+2023-10-17T08:39:00.919806101Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:39:00.919808763Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:39:00.919811128Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:39:00.919813470Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:39:00.919815917Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:40:00.919986513Z  crond[10]: wakeup dt=60
+2023-10-17T08:40:00.919998799Z  crond[10]: file root:
+2023-10-17T08:40:00.920003003Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:40:00.920006810Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:40:00.920010478Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:40:00.920013915Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:40:00.920016219Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:41:00.920259292Z  crond[10]: wakeup dt=60
+2023-10-17T08:41:00.920273932Z  crond[10]: file root:
+2023-10-17T08:41:00.920277255Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:41:00.920279954Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:41:00.920282368Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:41:00.920285158Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:41:00.920289078Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:42:00.920412624Z  crond[10]: wakeup dt=60
+2023-10-17T08:42:00.920435426Z  crond[10]: file root:
+2023-10-17T08:42:00.920438015Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:42:00.920440307Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:42:00.920442544Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:42:00.920444854Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:42:00.920456781Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:43:00.920607670Z  crond[10]: wakeup dt=60
+2023-10-17T08:43:00.920620177Z  crond[10]: file root:
+2023-10-17T08:43:00.920623639Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:43:00.920626178Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:43:00.920628820Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:43:00.920631255Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:43:00.920633775Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:44:00.920812429Z  crond[10]: wakeup dt=60
+2023-10-17T08:44:00.920831472Z  crond[10]: file root:
+2023-10-17T08:44:00.920836561Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:44:00.920840641Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:44:00.920844234Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:44:00.920847595Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:44:00.920851157Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:45:00.921128184Z  crond[10]: wakeup dt=60
+2023-10-17T08:45:00.921151496Z  crond[10]: file root:
+2023-10-17T08:45:00.921156052Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:45:00.921159585Z  crond[10]:  job: 0 run-parts /etc/periodic/15min
+2023-10-17T08:45:00.921162062Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:45:00.921164697Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:45:00.921169048Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:45:00.921172519Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:45:00.921214727Z  crond[22]: child running /bin/sh
+2023-10-17T08:45:00.921446469Z  crond[10]: USER root pid  22 cmd run-parts /etc/periodic/15min
+2023-10-17T08:45:10.921606299Z  crond[10]: wakeup dt=10
+2023-10-17T08:46:00.921837189Z  crond[10]: wakeup dt=50
+2023-10-17T08:46:00.921855474Z  crond[10]: file root:
+2023-10-17T08:46:00.921859292Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:46:00.921861917Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:46:00.921864376Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:46:00.921866788Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:46:00.921869083Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:47:00.922064636Z  crond[10]: wakeup dt=60
+2023-10-17T08:47:00.922082155Z  crond[10]: file root:
+2023-10-17T08:47:00.922086799Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:47:00.922099586Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:47:00.922102841Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:47:00.922105971Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:47:00.922109021Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:48:00.922289074Z  crond[10]: wakeup dt=60
+2023-10-17T08:48:00.922312194Z  crond[10]: file root:
+2023-10-17T08:48:00.922316340Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:48:00.922319567Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:48:00.922322991Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:48:00.922326161Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:48:00.922329260Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:49:00.922502474Z  crond[10]: wakeup dt=60
+2023-10-17T08:49:00.922519829Z  crond[10]: file root:
+2023-10-17T08:49:00.922523292Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:49:00.922525834Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:49:00.922528105Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:49:00.922530416Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:49:00.922532733Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:50:00.922793349Z  crond[10]: wakeup dt=60
+2023-10-17T08:50:00.922822095Z  crond[10]: file root:
+2023-10-17T08:50:00.922826046Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:50:00.922828695Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:50:00.922831122Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:50:00.922833399Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:50:00.922835608Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:51:00.922995569Z  crond[10]: wakeup dt=60
+2023-10-17T08:51:00.923011362Z  crond[10]: file root:
+2023-10-17T08:51:00.923015224Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:51:00.923019068Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:51:00.923021458Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:51:00.923023742Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:51:00.923026097Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:52:00.923193345Z  crond[10]: wakeup dt=60
+2023-10-17T08:52:00.923208243Z  crond[10]: file root:
+2023-10-17T08:52:00.923211623Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:52:00.923214139Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:52:00.923216479Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:52:00.941816520Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:52:00.941825115Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:53:00.923421997Z  crond[10]: wakeup dt=60
+2023-10-17T08:53:00.923436251Z  crond[10]: file root:
+2023-10-17T08:53:00.923439769Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:53:00.923442274Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:53:00.923444646Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:53:00.923447204Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:53:00.923449437Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:54:00.923610296Z  crond[10]: wakeup dt=60
+2023-10-17T08:54:00.923624855Z  crond[10]: file root:
+2023-10-17T08:54:00.923632224Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:54:00.923634835Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:54:00.923637215Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:54:00.923639500Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:54:00.923641897Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:55:00.923815379Z  crond[10]: wakeup dt=60
+2023-10-17T08:55:00.923830264Z  crond[10]: file root:
+2023-10-17T08:55:00.923833366Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:55:00.923835879Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:55:00.923838224Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:55:00.923840556Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:55:00.923842807Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:56:00.924043167Z  crond[10]: wakeup dt=60
+2023-10-17T08:56:00.924057947Z  crond[10]: file root:
+2023-10-17T08:56:00.924060799Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:56:00.924063336Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:56:00.924065734Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:56:00.924068042Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:56:00.924070242Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:57:00.924279991Z  crond[10]: wakeup dt=60
+2023-10-17T08:57:00.924296637Z  crond[10]: file root:
+2023-10-17T08:57:00.924300515Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:57:00.924304166Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:57:00.924307601Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:57:00.924311040Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:57:00.924321011Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:58:00.924525720Z  crond[10]: wakeup dt=60
+2023-10-17T08:58:00.924544665Z  crond[10]: file root:
+2023-10-17T08:58:00.924548175Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:58:00.924550605Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:58:00.924552992Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:58:00.924555337Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:58:00.924557618Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T08:59:00.924701374Z  crond[10]: wakeup dt=60
+2023-10-17T08:59:00.924717411Z  crond[10]: file root:
+2023-10-17T08:59:00.924721106Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T08:59:00.924723852Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T08:59:00.924726394Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T08:59:00.924729118Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T08:59:00.924734472Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:00:00.925305891Z  crond[10]: wakeup dt=60
+2023-10-17T09:00:00.925321237Z  crond[10]: file root:
+2023-10-17T09:00:00.925324734Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:00:00.925327364Z  crond[10]:  job: 0 run-parts /etc/periodic/15min
+2023-10-17T09:00:00.925329899Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:00:00.925332260Z  crond[10]:  job: 0 run-parts /etc/periodic/hourly
+2023-10-17T09:00:00.925334640Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:00:00.925336929Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:00:00.925339203Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:00:00.925341460Z  crond[24]: child running /bin/sh
+2023-10-17T09:00:00.925343805Z  crond[10]: USER root pid  24 cmd run-parts /etc/periodic/15min
+2023-10-17T09:00:00.925436205Z  crond[25]: child running /bin/sh
+2023-10-17T09:00:00.925898801Z  crond[10]: USER root pid  25 cmd run-parts /etc/periodic/hourly
+2023-10-17T09:00:10.926022441Z  crond[10]: wakeup dt=10
+2023-10-17T09:01:00.926231561Z  crond[10]: wakeup dt=50
+2023-10-17T09:01:00.926245945Z  crond[10]: file root:
+2023-10-17T09:01:00.926249251Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:01:00.926251815Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:01:00.926258555Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:01:00.926260880Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:01:00.926263211Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:02:00.926495285Z  crond[10]: wakeup dt=60
+2023-10-17T09:02:00.926512112Z  crond[10]: file root:
+2023-10-17T09:02:00.926514911Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:02:00.926519664Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:02:00.926521981Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:02:00.926524694Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:02:00.926526961Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:03:00.926682607Z  crond[10]: wakeup dt=60
+2023-10-17T09:03:00.926710143Z  crond[10]: file root:
+2023-10-17T09:03:00.926713023Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:03:00.926715385Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:03:00.926717675Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:03:00.926719930Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:03:00.926722250Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:04:00.926874220Z  crond[10]: wakeup dt=60
+2023-10-17T09:04:00.926889226Z  crond[10]: file root:
+2023-10-17T09:04:00.926892667Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:04:00.926895611Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:04:00.926898632Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:04:00.926901897Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:04:00.926905027Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:05:00.927052632Z  crond[10]: wakeup dt=60
+2023-10-17T09:05:00.927066107Z  crond[10]: file root:
+2023-10-17T09:05:00.927070103Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:05:00.927073467Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:05:00.927077686Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:05:00.927080153Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:05:00.927082419Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:06:00.927234030Z  crond[10]: wakeup dt=60
+2023-10-17T09:06:00.927244962Z  crond[10]: file root:
+2023-10-17T09:06:00.927248085Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:06:00.927251901Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:06:00.927255241Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:06:00.927259321Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:06:00.927261596Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:07:00.927420605Z  crond[10]: wakeup dt=60
+2023-10-17T09:07:00.927447557Z  crond[10]: file root:
+2023-10-17T09:07:00.927450087Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:07:00.927452122Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:07:00.927454166Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:07:00.927456123Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:07:00.927458075Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:08:00.927587624Z  crond[10]: wakeup dt=60
+2023-10-17T09:08:00.927600920Z  crond[10]: file root:
+2023-10-17T09:08:00.927603446Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:08:00.927605743Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:08:00.927612352Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:08:00.927614804Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:08:00.927617153Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:09:00.927789265Z  crond[10]: wakeup dt=60
+2023-10-17T09:09:00.927799157Z  crond[10]: file root:
+2023-10-17T09:09:00.927801582Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:09:00.927803901Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:09:00.927806161Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:09:00.927808426Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:09:00.927810766Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:10:00.927972587Z  crond[10]: wakeup dt=60
+2023-10-17T09:10:00.927987793Z  crond[10]: file root:
+2023-10-17T09:10:00.927992195Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:10:00.927995491Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:10:00.927999544Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:10:00.928001953Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:10:00.928004164Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:11:00.928166438Z  crond[10]: wakeup dt=60
+2023-10-17T09:11:00.928177476Z  crond[10]: file root:
+2023-10-17T09:11:00.928181369Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:11:00.928184682Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:11:00.928188061Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:11:00.928192281Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:11:00.928194561Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:12:00.928359529Z  crond[10]: wakeup dt=60
+2023-10-17T09:12:00.928385330Z  crond[10]: file root:
+2023-10-17T09:12:00.928388725Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:12:00.928400394Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:12:00.928403105Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:12:00.928405142Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:12:00.928407208Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:13:00.928532786Z  crond[10]: wakeup dt=60
+2023-10-17T09:13:00.928542357Z  crond[10]: file root:
+2023-10-17T09:13:00.928544908Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:13:00.928547258Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:13:00.928549559Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:13:00.928551846Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:13:00.928554135Z  crond[10]:  line run-parts /etc/periodic/monthly
+2023-10-17T09:14:00.928731945Z  crond[10]: wakeup dt=60
+2023-10-17T09:14:00.928748592Z  crond[10]: file root:
+2023-10-17T09:14:00.928750995Z  crond[10]:  line run-parts /etc/periodic/15min
+2023-10-17T09:14:00.928753388Z  crond[10]:  line run-parts /etc/periodic/hourly
+2023-10-17T09:14:00.928760282Z  crond[10]:  line run-parts /etc/periodic/daily
+2023-10-17T09:14:00.928762680Z  crond[10]:  line run-parts /etc/periodic/weekly
+2023-10-17T09:14:00.928765039Z  crond[10]:  line run-parts /etc/periodic/monthly

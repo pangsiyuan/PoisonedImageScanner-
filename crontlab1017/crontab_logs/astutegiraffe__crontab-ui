@@ -1,0 +1,110 @@
+2023-10-17T08:25:35.456389640Z  2023-10-17 08:25:35,454 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-17T08:25:35.456712821Z  2023-10-17 08:25:35,456 INFO supervisord started with pid 1
+2023-10-17T08:25:36.461800189Z  2023-10-17 08:25:36,458 INFO spawned: 'crontab' with pid 8
+2023-10-17T08:25:36.461821253Z  2023-10-17 08:25:36,460 INFO spawned: 'crontabui' with pid 9
+2023-10-17T08:25:36.463229786Z  crond[8]: crond (busybox 1.31.1) started, log level 2
+2023-10-17T08:25:36.463242298Z  crond[8]: user:root entry:*/15	*	*	*	*	run-parts /etc/periodic/15min
+2023-10-17T08:25:36.463246335Z  crond[8]: user:root entry:0	*	*	*	*	run-parts /etc/periodic/hourly
+2023-10-17T08:25:36.463248863Z  crond[8]: user:root entry:0	2	*	*	*	run-parts /etc/periodic/daily
+2023-10-17T08:25:36.463251555Z  crond[8]: user:root entry:0	3	*	*	6	run-parts /etc/periodic/weekly
+2023-10-17T08:25:36.463254039Z  crond[8]: user:root entry:0	5	1	*	*	run-parts /etc/periodic/monthly
+2023-10-17T08:25:37.646831817Z  2023-10-17 08:25:37,646 INFO success: crontab entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T08:25:37.646850728Z  2023-10-17 08:25:37,646 INFO success: crontabui entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T08:26:00.463508530Z  crond[8]: wakeup dt=24
+2023-10-17T08:26:00.463531875Z  crond[8]: file root:
+2023-10-17T08:27:00.463733316Z  crond[8]: wakeup dt=60
+2023-10-17T08:27:00.463751478Z  crond[8]: file root:
+2023-10-17T08:28:00.463872480Z  crond[8]: wakeup dt=60
+2023-10-17T08:28:00.463895260Z  crond[8]: file root:
+2023-10-17T08:29:00.463995797Z  crond[8]: wakeup dt=60
+2023-10-17T08:29:00.464015653Z  crond[8]: file root:
+2023-10-17T08:30:00.464151656Z  crond[8]: wakeup dt=60
+2023-10-17T08:30:00.464178008Z  crond[8]: file root:
+2023-10-17T08:31:00.464279273Z  crond[8]: wakeup dt=60
+2023-10-17T08:31:00.464302097Z  crond[8]: file root:
+2023-10-17T08:32:00.464449530Z  crond[8]: wakeup dt=60
+2023-10-17T08:32:00.464734714Z  crond[8]: file root:
+2023-10-17T08:33:00.464572858Z  crond[8]: wakeup dt=60
+2023-10-17T08:33:00.464603542Z  crond[8]: file root:
+2023-10-17T08:34:00.464712758Z  crond[8]: wakeup dt=60
+2023-10-17T08:34:00.464737005Z  crond[8]: file root:
+2023-10-17T08:35:00.464838235Z  crond[8]: wakeup dt=60
+2023-10-17T08:35:00.464852802Z  crond[8]: file root:
+2023-10-17T08:36:00.464976071Z  crond[8]: wakeup dt=60
+2023-10-17T08:36:00.464991290Z  crond[8]: file root:
+2023-10-17T08:37:00.465105497Z  crond[8]: wakeup dt=60
+2023-10-17T08:37:00.465121069Z  crond[8]: file root:
+2023-10-17T08:38:00.465321158Z  crond[8]: wakeup dt=60
+2023-10-17T08:38:00.465341249Z  crond[8]: file root:
+2023-10-17T08:39:00.465519265Z  crond[8]: wakeup dt=60
+2023-10-17T08:39:00.465536681Z  crond[8]: file root:
+2023-10-17T08:40:00.465616657Z  crond[8]: wakeup dt=60
+2023-10-17T08:40:00.465635660Z  crond[8]: file root:
+2023-10-17T08:41:00.465736359Z  crond[8]: wakeup dt=60
+2023-10-17T08:41:00.465754944Z  crond[8]: file root:
+2023-10-17T08:42:00.465855309Z  crond[8]: wakeup dt=60
+2023-10-17T08:42:00.465878398Z  crond[8]: file root:
+2023-10-17T08:43:00.465968643Z  crond[8]: wakeup dt=60
+2023-10-17T08:43:00.465981509Z  crond[8]: file root:
+2023-10-17T08:44:00.466123045Z  crond[8]: wakeup dt=60
+2023-10-17T08:44:00.466150702Z  crond[8]: file root:
+2023-10-17T08:45:00.466276348Z  crond[8]: wakeup dt=60
+2023-10-17T08:45:00.466291066Z  crond[8]: file root:
+2023-10-17T08:46:00.466438317Z  crond[8]: wakeup dt=60
+2023-10-17T08:46:00.466458077Z  crond[8]: file root:
+2023-10-17T08:47:00.466569394Z  crond[8]: wakeup dt=60
+2023-10-17T08:47:00.466584066Z  crond[8]: file root:
+2023-10-17T08:48:00.466782166Z  crond[8]: wakeup dt=60
+2023-10-17T08:48:00.466801535Z  crond[8]: file root:
+2023-10-17T08:49:00.466890038Z  crond[8]: wakeup dt=60
+2023-10-17T08:49:00.466908276Z  crond[8]: file root:
+2023-10-17T08:50:00.467070954Z  crond[8]: wakeup dt=60
+2023-10-17T08:50:00.467093569Z  crond[8]: file root:
+2023-10-17T08:51:00.467156253Z  crond[8]: wakeup dt=60
+2023-10-17T08:51:00.467180751Z  crond[8]: file root:
+2023-10-17T08:52:00.467292198Z  crond[8]: wakeup dt=60
+2023-10-17T08:52:00.467306178Z  crond[8]: file root:
+2023-10-17T08:53:00.467468657Z  crond[8]: wakeup dt=60
+2023-10-17T08:53:00.467485290Z  crond[8]: file root:
+2023-10-17T08:54:00.467574161Z  crond[8]: wakeup dt=60
+2023-10-17T08:54:00.467591084Z  crond[8]: file root:
+2023-10-17T08:55:00.467735222Z  crond[8]: wakeup dt=60
+2023-10-17T08:55:00.467757086Z  crond[8]: file root:
+2023-10-17T08:56:00.467872685Z  crond[8]: wakeup dt=60
+2023-10-17T08:56:00.467889917Z  crond[8]: file root:
+2023-10-17T08:57:00.468008775Z  crond[8]: wakeup dt=60
+2023-10-17T08:57:00.468027563Z  crond[8]: file root:
+2023-10-17T08:58:00.468162549Z  crond[8]: wakeup dt=60
+2023-10-17T08:58:00.468180097Z  crond[8]: file root:
+2023-10-17T08:59:00.468283986Z  crond[8]: wakeup dt=60
+2023-10-17T08:59:00.468301634Z  crond[8]: file root:
+2023-10-17T09:00:00.468483005Z  crond[8]: wakeup dt=60
+2023-10-17T09:00:00.468500593Z  crond[8]: file root:
+2023-10-17T09:01:00.468599267Z  crond[8]: wakeup dt=60
+2023-10-17T09:01:00.468619610Z  crond[8]: file root:
+2023-10-17T09:02:00.468724812Z  crond[8]: wakeup dt=60
+2023-10-17T09:02:00.468739247Z  crond[8]: file root:
+2023-10-17T09:03:00.468858543Z  crond[8]: wakeup dt=60
+2023-10-17T09:03:00.468880042Z  crond[8]: file root:
+2023-10-17T09:04:00.469009618Z  crond[8]: wakeup dt=60
+2023-10-17T09:04:00.469030384Z  crond[8]: file root:
+2023-10-17T09:05:00.469131498Z  crond[8]: wakeup dt=60
+2023-10-17T09:05:00.469159283Z  crond[8]: file root:
+2023-10-17T09:06:00.469268159Z  crond[8]: wakeup dt=60
+2023-10-17T09:06:00.469290853Z  crond[8]: file root:
+2023-10-17T09:07:00.469412655Z  crond[8]: wakeup dt=60
+2023-10-17T09:07:00.469435911Z  crond[8]: file root:
+2023-10-17T09:08:00.469556384Z  crond[8]: wakeup dt=60
+2023-10-17T09:08:00.469577155Z  crond[8]: file root:
+2023-10-17T09:09:00.469697141Z  crond[8]: wakeup dt=60
+2023-10-17T09:09:00.469727881Z  crond[8]: file root:
+2023-10-17T09:10:00.469858617Z  crond[8]: wakeup dt=60
+2023-10-17T09:10:00.469885186Z  crond[8]: file root:
+2023-10-17T09:11:00.469993815Z  crond[8]: wakeup dt=60
+2023-10-17T09:11:00.470019858Z  crond[8]: file root:
+2023-10-17T09:12:00.470134104Z  crond[8]: wakeup dt=60
+2023-10-17T09:12:00.470156578Z  crond[8]: file root:
+2023-10-17T09:13:00.470261610Z  crond[8]: wakeup dt=60
+2023-10-17T09:13:00.470283882Z  crond[8]: file root:
+2023-10-17T09:14:00.470410332Z  crond[8]: wakeup dt=60
+2023-10-17T09:14:00.470431313Z  crond[8]: file root:

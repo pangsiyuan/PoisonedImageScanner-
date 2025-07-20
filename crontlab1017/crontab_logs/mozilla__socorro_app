@@ -1,0 +1,8 @@
+2023-10-17T09:04:18.307004080Z  usage: entrypoint.sh SERVICE
+2023-10-17T09:04:18.307038213Z  
+2023-10-17T09:04:18.307041800Z  Services:
+2023-10-17T09:04:18.315298804Z  * processor: Run processor service
+2023-10-17T09:04:18.315319163Z  * crontabber: Run crontabber service
+2023-10-17T09:04:18.315322917Z  * webapp: Run webapp service
+2023-10-17T09:04:18.315326209Z  * symbolsserver: Runs a local symbols server
+2023-10-17T09:04:18.315329082Z  * shell: Open a shell or run something else

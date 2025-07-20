@@ -1,0 +1,10 @@
+2023-10-17T08:25:36.393069529Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T08:30:00.479017441Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T08:35:00.476656051Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T08:40:00.505603612Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T08:45:00.492087429Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T08:50:00.500404366Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T08:55:00.479378421Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T09:00:00.500393671Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T09:05:00.482153312Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers
+2023-10-17T09:10:00.478962448Z  /cron/s3.sh: 1: cd: can't cd to /var/log/containers

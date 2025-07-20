@@ -1,0 +1,7 @@
+IMAGE                                                                     CREATED       CREATED BY                                                                                                  SIZE      COMMENT
+sha256:6257f8474d07efe8d5d71762f401ef34abd73ed5434c496c0e1b1661b8b96db6   3 years ago   /bin/sh -c #(nop)  ENTRYPOINT ["crond" "-f"]                                                                0B        
+<missing>                                                                 3 years ago   /bin/sh -c echo '@daily /usr/bin/curator --config /config/config.yaml /config/action.yaml' >> ${CRONTABS}   356B      
+<missing>                                                                 3 years ago   /bin/sh -c #(nop)  ENV CRONTABS=/etc/crontabs/root                                                          0B        
+<missing>                                                                 3 years ago   /bin/sh -c apk --no-cache add python py-pip &&     pip install elasticsearch-curator==5.7.6                 113MB     
+<missing>                                                                 4 years ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]                                                                          0B        
+<missing>                                                                 4 years ago   /bin/sh -c #(nop) ADD file:38bc6b51693b13d84a63e281403e2f6d0218c44b1d7ff12157c4523f9f0ebb1e in /            4.41MB    

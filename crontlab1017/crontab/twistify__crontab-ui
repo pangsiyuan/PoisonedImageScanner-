@@ -1,0 +1,13 @@
+IMAGE                                                                     CREATED       CREATED BY                                                                                                     SIZE      COMMENT
+sha256:0bd4678d08fd3e1afdc697171e6296aecee1afdf902f9bd33dd25b9c2eea2308   6 years ago   /bin/sh -c #(nop)  ENTRYPOINT ["./startup.sh"]                                                                 0B        
+<missing>                                                                 6 years ago   /bin/sh -c #(nop)  EXPOSE 8000/tcp                                                                             0B        
+<missing>                                                                 6 years ago   /bin/sh -c #(nop)  ENV PORT=8000                                                                               0B        
+<missing>                                                                 6 years ago   /bin/sh -c #(nop)  ENV HOST=0.0.0.0                                                                            0B        
+<missing>                                                                 6 years ago   /bin/sh -c chmod +x /startup.sh                                                                                58B       
+<missing>                                                                 6 years ago   /bin/sh -c #(nop) COPY file:670d539d6062ce5a9597068801c5c4d55b8b34bccb8e1c855f7f156f92065fa3 in /startup.sh    58B       
+<missing>                                                                 6 years ago   /bin/sh -c npm install -g crontab-ui                                                                           25MB      
+<missing>                                                                 6 years ago   /bin/sh -c update-ca-certificates                                                                              275kB     
+<missing>                                                                 6 years ago   /bin/sh -c apk --no-cache add       nodejs       ca-certificates       wget       curl                         33.1MB    
+<missing>                                                                 6 years ago   /bin/sh -c #(nop)  LABEL description=Crontab-UI on Alpine Linux                                                0B        
+<missing>                                                                 6 years ago   /bin/sh -c #(nop)  LABEL maintainer=@twistify                                                                  0B        
+<missing>                                                                 6 years ago   /bin/sh -c #(nop) ADD file:730030a984f5f0c5dc9b15ab61da161082b5c0f6e112a9c921b42321140c3927 in /               3.99MB    

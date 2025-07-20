@@ -1,0 +1,20 @@
+2023-10-17T09:03:46.506835246Z  [0mTraceback (most recent call last):
+2023-10-17T09:03:46.506856702Z  [0m[0m  File "/app/app.py", line 96, in <module>
+2023-10-17T09:03:46.506859639Z  [0m[0m    [0masyncio.run(main())[0m
+2023-10-17T09:03:46.506862375Z  [0m[0m  File "/usr/local/lib/python3.12/asyncio/runners.py", line 194, in run
+2023-10-17T09:03:46.507746965Z  [0m[0m    [0mreturn runner.run(main)[0m
+2023-10-17T09:03:46.507755479Z  [0m[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m
+2023-10-17T09:03:46.507763576Z  [0m[0m  File "/usr/local/lib/python3.12/asyncio/runners.py", line 118, in run
+2023-10-17T09:03:46.507766433Z  [0m[0m    [0mreturn self._loop.run_until_complete(task)[0m
+2023-10-17T09:03:46.507770468Z  [0m[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m
+2023-10-17T09:03:46.507775884Z  [0m[0m  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 664, in run_until_complete
+2023-10-17T09:03:46.519639475Z  [0m[0m    [0mreturn future.result()[0m
+2023-10-17T09:03:46.519657406Z  [0m[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m
+2023-10-17T09:03:46.519662312Z  [0m[0m  File "/app/app.py", line 60, in main
+2023-10-17T09:03:46.519665699Z  [0m[0m    [0mwith open("crontab.yaml", "r") as file:[0m
+2023-10-17T09:03:46.519669449Z  [0m[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m^[0m
+2023-10-17T09:03:46.519681362Z  [0m[0mFileNotFoundError[0m: [0m[Errno 2] No such file or directory: 'crontab.yaml'[0m
+2023-10-17T09:03:46.556645372Z  [0mstart.sh: cd: line 7: can't cd to /app/py: No such file or directory
+2023-10-17T09:03:46.558557524Z  跳过添加任务：app.py，第一行不是合法的cron表达式格式：import argparse
+2023-10-17T09:03:46.558572297Z  已添加的cron内容：
+2023-10-17T09:03:46.560471290Z  crond[16]: crond (busybox 1.36.1) started, log level 8

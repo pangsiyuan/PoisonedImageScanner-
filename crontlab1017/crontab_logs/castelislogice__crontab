@@ -1,0 +1,7 @@
+2023-10-17T08:25:36.081469093Z  /usr/local/bin/mycron: 6: /usr/local/bin/mycron: /var/www/project/vendor/bin/logice: not found
+2023-10-17T08:25:36.081499483Z  Oct 17 08:25:36 44af3be43a57 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="7" x-info="http://www.rsyslog.com"] start
+2023-10-17T08:25:36.081504149Z  Oct 17 08:25:36 44af3be43a57 rsyslogd: imklog: cannot open kernel log(/proc/kmsg): Operation not permitted.
+2023-10-17T08:25:36.081507635Z  Oct 17 08:25:36 44af3be43a57 rsyslogd-2145: activation of module imklog failed [try http://www.rsyslog.com/e/2145 ]
+2023-10-17T08:25:36.081510871Z  Oct 17 08:25:36 44af3be43a57 rsyslogd-2039: Could not open output pipe '/dev/xconsole': No such file or directory [try http://www.rsyslog.com/e/2039 ]
+2023-10-17T08:25:36.081514206Z  tail: unrecognized file system type 0x794c7630 for '/var/log/syslog'. please report this to bug-coreutils@gnu.org. reverting to polling
+2023-10-17T08:25:37.081295202Z  Oct 17 08:25:36 44af3be43a57 rsyslogd-2007: action 'action 17' suspended, next retry is Tue Oct 17 08:26:06 2023 [try http://www.rsyslog.com/e/2007 ]

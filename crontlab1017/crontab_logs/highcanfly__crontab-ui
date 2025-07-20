@@ -1,0 +1,148 @@
+2023-10-17T09:03:27.171360542Z  2023-10-17 09:03:27,170 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-17T09:03:27.175603205Z  2023-10-17 09:03:27,175 INFO supervisord started with pid 18
+2023-10-17T09:03:28.180066144Z  2023-10-17 09:03:28,177 INFO spawned: 'crontab' with pid 19
+2023-10-17T09:03:28.180088001Z  2023-10-17 09:03:28,179 INFO spawned: 'crontabui' with pid 20
+2023-10-17T09:03:28.181404191Z  crond[19]: crond (busybox 1.36.1) started, log level 2
+2023-10-17T09:03:28.181415379Z  crond[19]: user:root entry:*/2 * * * * run-parts /opt/cron/periodic/2min
+2023-10-17T09:03:28.181418538Z  crond[19]: user:root entry:*/15 * * * * run-parts /opt/cron/periodic/15min
+2023-10-17T09:03:28.181420911Z  crond[19]: user:root entry:0 * * * * run-parts /opt/cron/periodic/hourly
+2023-10-17T09:03:28.181423448Z  crond[19]: user:root entry:6 2,4 * * * run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:03:28.181425791Z  crond[19]: user:root entry:0 2 * * * run-parts /opt/cron/periodic/daily
+2023-10-17T09:03:28.181428088Z  crond[19]: user:root entry:0 3 * * 6 run-parts /opt/cron/periodic/weekly
+2023-10-17T09:03:28.181430392Z  crond[19]: user:root entry:0 5 1 * * run-parts /opt/cron/periodic/monthly
+2023-10-17T09:03:29.182363924Z  2023-10-17 09:03:29,181 INFO success: crontab entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:03:29.182399174Z  2023-10-17 09:03:29,181 INFO success: crontabui entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:03:30.293572403Z  Cron db path: /opt/cron/db
+2023-10-17T09:03:30.299121348Z  Path to crond files set using env variables /opt/cron/crontabs
+2023-10-17T09:03:30.403625051Z  Node version: 18.17.1
+2023-10-17T09:03:30.404056377Z  Crontab UI (0.3.16) is running at http://0.0.0.0:8000
+2023-10-17T09:04:00.203474013Z  crond[19]: user:root entry:*/2 * * * * run-parts /opt/cron/periodic/2min
+2023-10-17T09:04:00.204986968Z  crond[19]: user:root entry:*/15 * * * * run-parts /opt/cron/periodic/15min
+2023-10-17T09:04:00.204995412Z  crond[19]: user:root entry:0 * * * * run-parts /opt/cron/periodic/hourly
+2023-10-17T09:04:00.204999673Z  crond[19]: user:root entry:6 2,4 * * * run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:04:00.205003491Z  crond[19]: user:root entry:0 2 * * * run-parts /opt/cron/periodic/daily
+2023-10-17T09:04:00.205007433Z  crond[19]: user:root entry:0 3 * * 6 run-parts /opt/cron/periodic/weekly
+2023-10-17T09:04:00.205011321Z  crond[19]: user:root entry:0 5 1 * * run-parts /opt/cron/periodic/monthly
+2023-10-17T09:04:00.205015265Z  crond[19]: wakeup dt=32
+2023-10-17T09:04:00.205019113Z  crond[19]: file root:
+2023-10-17T09:04:00.205022898Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:04:00.205026949Z  crond[19]:  job: 0 run-parts /opt/cron/periodic/2min
+2023-10-17T09:04:00.205037071Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:04:00.205040602Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:04:00.205043662Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:04:00.205046653Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:04:00.205049739Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:04:00.205052841Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:04:00.205058636Z  crond[35]: child running /bin/ash
+2023-10-17T09:04:00.205061713Z  crond[19]: USER root pid  35 cmd run-parts /opt/cron/periodic/2min
+2023-10-17T09:04:10.204561383Z  crond[19]: wakeup dt=10
+2023-10-17T09:05:00.204775299Z  crond[19]: wakeup dt=50
+2023-10-17T09:05:00.204794774Z  crond[19]: file root:
+2023-10-17T09:05:00.204798190Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:05:00.204801593Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:05:00.204805005Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:05:00.204808500Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:05:00.204811939Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:05:00.204815181Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:05:00.204818439Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:06:00.205070844Z  crond[19]: wakeup dt=60
+2023-10-17T09:06:00.205081804Z  crond[19]: file root:
+2023-10-17T09:06:00.205084226Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:06:00.205086761Z  crond[19]:  job: 0 run-parts /opt/cron/periodic/2min
+2023-10-17T09:06:00.205089112Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:06:00.205091381Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:06:00.205093730Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:06:00.205096136Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:06:00.205098367Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:06:00.205100607Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:06:00.206950531Z  crond[36]: child running /bin/ash
+2023-10-17T09:06:00.207036677Z  crond[19]: USER root pid  36 cmd run-parts /opt/cron/periodic/2min
+2023-10-17T09:06:10.207231316Z  crond[19]: wakeup dt=10
+2023-10-17T09:07:00.207457616Z  crond[19]: wakeup dt=50
+2023-10-17T09:07:00.207471268Z  crond[19]: file root:
+2023-10-17T09:07:00.207473672Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:07:00.207476038Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:07:00.207485309Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:07:00.207487493Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:07:00.207489739Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:07:00.207491709Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:07:00.207493656Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:08:00.207747532Z  crond[19]: wakeup dt=60
+2023-10-17T09:08:00.207762417Z  crond[19]: file root:
+2023-10-17T09:08:00.207765683Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:08:00.207769920Z  crond[19]:  job: 0 run-parts /opt/cron/periodic/2min
+2023-10-17T09:08:00.207773486Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:08:00.207777025Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:08:00.207781136Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:08:00.207783787Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:08:00.207786148Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:08:00.207788512Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:08:00.207905209Z  crond[37]: child running /bin/ash
+2023-10-17T09:08:00.207974384Z  crond[19]: USER root pid  37 cmd run-parts /opt/cron/periodic/2min
+2023-10-17T09:08:10.208175229Z  crond[19]: wakeup dt=10
+2023-10-17T09:09:00.208396414Z  crond[19]: wakeup dt=50
+2023-10-17T09:09:00.208407115Z  crond[19]: file root:
+2023-10-17T09:09:00.208409514Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:09:00.208411881Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:09:00.208414241Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:09:00.208416611Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:09:00.208419040Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:09:00.208421358Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:09:00.208423645Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:10:00.208714643Z  crond[19]: wakeup dt=60
+2023-10-17T09:10:00.208730616Z  crond[19]: file root:
+2023-10-17T09:10:00.208733760Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:10:00.208736132Z  crond[19]:  job: 0 run-parts /opt/cron/periodic/2min
+2023-10-17T09:10:00.208738517Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:10:00.208740961Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:10:00.208743166Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:10:00.208751579Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:10:00.208753828Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:10:00.208755821Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:10:00.208868505Z  crond[38]: child running /bin/ash
+2023-10-17T09:10:00.209277371Z  crond[19]: USER root pid  38 cmd run-parts /opt/cron/periodic/2min
+2023-10-17T09:10:10.209471372Z  crond[19]: wakeup dt=10
+2023-10-17T09:11:00.209676276Z  crond[19]: wakeup dt=50
+2023-10-17T09:11:00.209691169Z  crond[19]: file root:
+2023-10-17T09:11:00.209693804Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:11:00.209696106Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:11:00.209698413Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:11:00.209700776Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:11:00.209703253Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:11:00.209705452Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:11:00.209707670Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:12:00.209982906Z  crond[19]: wakeup dt=60
+2023-10-17T09:12:00.209998325Z  crond[19]: file root:
+2023-10-17T09:12:00.210002242Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:12:00.210004642Z  crond[19]:  job: 0 run-parts /opt/cron/periodic/2min
+2023-10-17T09:12:00.210006957Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:12:00.210009248Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:12:00.210011548Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:12:00.210013955Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:12:00.210016277Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:12:00.210018474Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:12:00.210146450Z  crond[39]: child running /bin/ash
+2023-10-17T09:12:00.210212293Z  crond[19]: USER root pid  39 cmd run-parts /opt/cron/periodic/2min
+2023-10-17T09:12:10.210423557Z  crond[19]: wakeup dt=10
+2023-10-17T09:13:00.210644085Z  crond[19]: wakeup dt=50
+2023-10-17T09:13:00.210667943Z  crond[19]: file root:
+2023-10-17T09:13:00.210670680Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:13:00.210674976Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:13:00.210677483Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:13:00.210679825Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:13:00.210682225Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:13:00.210695012Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:13:00.210697314Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:14:00.210950775Z  crond[19]: wakeup dt=60
+2023-10-17T09:14:00.210968963Z  crond[19]: file root:
+2023-10-17T09:14:00.210971645Z  crond[19]:  line run-parts /opt/cron/periodic/2min
+2023-10-17T09:14:00.210974098Z  crond[19]:  job: 0 run-parts /opt/cron/periodic/2min
+2023-10-17T09:14:00.210976500Z  crond[19]:  line run-parts /opt/cron/periodic/15min
+2023-10-17T09:14:00.210978878Z  crond[19]:  line run-parts /opt/cron/periodic/hourly
+2023-10-17T09:14:00.210981101Z  crond[19]:  line run-parts /opt/cron/periodic/twicebynight
+2023-10-17T09:14:00.210983643Z  crond[19]:  line run-parts /opt/cron/periodic/daily
+2023-10-17T09:14:00.210985885Z  crond[19]:  line run-parts /opt/cron/periodic/weekly
+2023-10-17T09:14:00.210988223Z  crond[19]:  line run-parts /opt/cron/periodic/monthly
+2023-10-17T09:14:00.211089268Z  crond[40]: child running /bin/ash
+2023-10-17T09:14:00.211168389Z  crond[19]: USER root pid  40 cmd run-parts /opt/cron/periodic/2min
+2023-10-17T09:14:10.211367466Z  crond[19]: wakeup dt=10

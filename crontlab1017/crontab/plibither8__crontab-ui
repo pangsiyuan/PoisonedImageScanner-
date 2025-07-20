@@ -1,0 +1,9 @@
+IMAGE                                                                     CREATED         CREATED BY                                                                                                 SIZE      COMMENT
+sha256:0c4106196537516b611748edb56bd4d2469acd4886b720db3f606fe1f9cc6578   7 days ago      /bin/sh -c apk --no-cache add       wget       curl       nodejs       npm       supervisor       tzdata   106MB     
+<missing>                                                                 7 days ago      /bin/sh -c #(nop)  LABEL description=Crontab-UI docker                                                     0B        
+<missing>                                                                 7 days ago      /bin/sh -c #(nop)  LABEL maintainer=@alseambusher                                                          0B        
+<missing>                                                                 7 days ago      /bin/sh -c #(nop) WORKDIR /crontab-ui                                                                      0B        
+<missing>                                                                 7 days ago      /bin/sh -c mkdir /crontab-ui; touch $CRON_PATH/root; chmod +x $CRON_PATH/root                              283B      
+<missing>                                                                 7 days ago      /bin/sh -c #(nop)  ENV CRON_PATH=/etc/crontabs                                                             0B        
+<missing>                                                                 18 months ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]                                                                         0B        
+<missing>                                                                 18 months ago   /bin/sh -c #(nop) ADD file:24e8b04304ef91bbf949674909ccaf2c66e3dcd096c3c307a0510569eadf576f in /           5.32MB    

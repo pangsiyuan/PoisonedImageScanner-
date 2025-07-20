@@ -1,0 +1,10 @@
+IMAGE                                                                     CREATED        CREATED BY                                                                                          SIZE      COMMENT
+sha256:28754c1e424183704bd1589be7fb6fcc3ddf9b05f7af993f064dcc501c31a55f   7 weeks ago    CMD ["crond" "-f" "-l" "2"]                                                                         0B        buildkit.dockerfile.v0
+<missing>                                                                 7 weeks ago    ENTRYPOINT ["/entrypoint.sh"]                                                                       0B        buildkit.dockerfile.v0
+<missing>                                                                 7 weeks ago    RUN /bin/sh -c chmod +x entrypoint.sh # buildkit                                                    69B       buildkit.dockerfile.v0
+<missing>                                                                 7 weeks ago    COPY entrypoint.sh /entrypoint.sh # buildkit                                                        69B       buildkit.dockerfile.v0
+<missing>                                                                 7 weeks ago    RUN /bin/sh -c which crond && rm -rf /etc/periodic/ # buildkit                                      0B        buildkit.dockerfile.v0
+<missing>                                                                 7 weeks ago    RUN /bin/sh -c apk add sudo # buildkit                                                              1.94MB    buildkit.dockerfile.v0
+<missing>                                                                 7 weeks ago    RUN /bin/sh -c apk add openjdk11 # buildkit                                                         266MB     buildkit.dockerfile.v0
+<missing>                                                                 2 months ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]                                                                  0B        
+<missing>                                                                 2 months ago   /bin/sh -c #(nop) ADD file:32ff5e7a78b890996ee4681cc0a26185d3e9acdb4eb1e2aaccb2411f922fed6b in /    7.34MB    

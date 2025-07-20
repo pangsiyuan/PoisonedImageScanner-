@@ -1,0 +1,1 @@
+2023-10-17T09:03:28.745467174Z  tail: unrecognized file system type 0x794c7630 for '/var/log/cron.log'. please report this to bug-coreutils@gnu.org. reverting to polling

@@ -1,0 +1,42 @@
+2023-10-17T09:04:01.367498807Z  09:04:01.364 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-10-17T09:04:01.371179491Z  09:04:01.370 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-10-17T09:04:01.386905721Z  09:04:01.386 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-17T09:04:01.387666192Z  09:04:01.387 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.1.6 created.
+2023-10-17T09:04:01.389073645Z  09:04:01.388 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2023-10-17T09:04:01.389086664Z  09:04:01.388 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.1.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2023-10-17T09:04:01.389089459Z    Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+2023-10-17T09:04:01.389091715Z    NOT STARTED.
+2023-10-17T09:04:01.389093687Z    Currently in standby mode.
+2023-10-17T09:04:01.389095692Z    Number of jobs executed: 0
+2023-10-17T09:04:01.389097779Z    Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+2023-10-17T09:04:01.389099949Z    Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+2023-10-17T09:04:01.389102100Z  
+2023-10-17T09:04:01.389104141Z  09:04:01.388 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2023-10-17T09:04:01.389106378Z  09:04:01.388 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.1.6
+2023-10-17T09:04:01.469830426Z  09:04:01.468 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-10-17T09:04:01.469850738Z  09:04:01.468 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:04:02.388434521Z  09:04:02.387 [Timer-0] DEBUG org.quartz.utils.UpdateChecker - Checking for available updated version of Quartz...
+2023-10-17T09:04:27.077198576Z  09:04:27.076 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:04:54.904486802Z  09:04:54.904 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:05:22.941806016Z  09:05:22.941 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:05:48.862072054Z  09:05:48.861 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:06:16.040388335Z  09:06:16.040 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:06:45.219677643Z  09:06:45.219 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:07:11.821945964Z  09:07:11.821 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:07:40.985210297Z  09:07:40.984 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:08:05.798468675Z  09:08:05.798 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:08:33.357754138Z  09:08:33.357 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:09:01.515070563Z  09:09:01.514 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:09:30.558360108Z  09:09:30.558 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:09:56.734690683Z  09:09:56.734 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:10:23.976967994Z  09:10:23.976 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:10:49.255274431Z  09:10:49.255 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:11:14.137562562Z  09:11:14.137 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:11:38.350917218Z  09:11:38.350 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:12:04.761195780Z  09:12:04.760 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:12:32.502510198Z  09:12:32.502 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:12:57.442864228Z  09:12:57.442 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:13:21.500146467Z  09:13:21.499 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:13:47.884453527Z  09:13:47.884 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:14:13.882727901Z  09:14:13.882 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers
+2023-10-17T09:14:37.400127615Z  09:14:37.399 [DefaultQuartzScheduler_QuartzSchedulerThread] DEBUG o.quartz.core.QuartzSchedulerThread - batch acquisition of 0 triggers

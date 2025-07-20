@@ -1,0 +1,10 @@
+2023-10-17T09:04:23.025886264Z  Checking current 'Public IP' from 'http://api.ipify.org'...47.252.93.98!
+2023-10-17T09:04:23.201418837Z  Checking 'example.org' IP records from 'GoDaddy'...changed!
+2023-10-17T09:04:23.337041497Z  Updating 'example.org'...Fail! {"code":"UNABLE_TO_AUTHENTICATE","message":"Unauthorized : Could not authenticate API key/secret"}
+2023-10-17T09:04:23.339258369Z  /usr/sbin/crond 4.5 dillon's cron daemon, started with loglevel panic
+2023-10-17T09:05:01.339542814Z  FILE /etc/crontabs/root USER root PID  36 /bin/bash /godaddy-dns-anchor.sh
+2023-10-17T09:05:01.753698030Z  exit status 1 from user root /bin/bash /godaddy-dns-anchor.sh
+2023-10-17T09:05:01.753807605Z  mailing cron output for user root /bin/bash /godaddy-dns-anchor.sh
+2023-10-17T09:10:01.773354612Z  FILE /etc/crontabs/root USER root PID  68 /bin/bash /godaddy-dns-anchor.sh
+2023-10-17T09:10:02.459090121Z  exit status 1 from user root /bin/bash /godaddy-dns-anchor.sh
+2023-10-17T09:10:02.459356596Z  mailing cron output for user root /bin/bash /godaddy-dns-anchor.sh

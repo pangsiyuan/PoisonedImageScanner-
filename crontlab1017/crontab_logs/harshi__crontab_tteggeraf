@@ -1,0 +1,1 @@
+2023-10-17T09:03:33.461879787Z  telegraf: 1: telegraf: echo '*/5 * * * * /etc/telegraf/restart_dc2telegraf.sh >> /dev/null 2>&1' | crontab -: not found

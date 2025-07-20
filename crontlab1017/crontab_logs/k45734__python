@@ -1,0 +1,23 @@
+2023-10-17T09:03:59.793147854Z  rm: can't remove 'start_*.log': No such file or directory
+2023-10-17T09:03:59.793169753Z  YES
+2023-10-17T09:03:59.840729507Z    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2023-10-17T09:03:59.840750638Z                                   Dload  Upload   Total   Spent    Left  Speed
+2023-10-17T09:04:00.261091545Z    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4707  100  4707    0     0  11167      0 --:--:-- --:--:-- --:--:-- 11180
+2023-10-17T09:04:00.267026773Z  2023-10-17 18:04:00,266 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-17T09:04:00.273848673Z  2023-10-17 18:04:00,273 INFO RPC interface 'supervisor' initialized
+2023-10-17T09:04:00.273866044Z  2023-10-17 18:04:00,273 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-10-17T09:04:00.273869868Z  2023-10-17 18:04:00,273 INFO supervisord started with pid 10
+2023-10-17T09:04:01.279214805Z  2023-10-17 18:04:01,276 INFO spawned: 'cron' with pid 24
+2023-10-17T09:04:02.283707849Z  2023-10-17 18:04:02,283 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:04:03.086692537Z  Archive:  rclone-current-linux-amd64.zip
+2023-10-17T09:04:03.086712131Z     creating: tmp_unzip_dir_for_rclone/rclone-v1.64.0-linux-amd64/
+2023-10-17T09:04:03.722471501Z    inflating: tmp_unzip_dir_for_rclone/rclone-v1.64.0-linux-amd64/rclone  [binary]
+2023-10-17T09:04:03.748103556Z    inflating: tmp_unzip_dir_for_rclone/rclone-v1.64.0-linux-amd64/rclone.1  [text]  
+2023-10-17T09:04:03.780415967Z    inflating: tmp_unzip_dir_for_rclone/rclone-v1.64.0-linux-amd64/README.html  [text]  
+2023-10-17T09:04:03.780431888Z    inflating: tmp_unzip_dir_for_rclone/rclone-v1.64.0-linux-amd64/git-log.txt  [text]  
+2023-10-17T09:04:03.801539992Z    inflating: tmp_unzip_dir_for_rclone/rclone-v1.64.0-linux-amd64/README.txt  [text]  
+2023-10-17T09:04:03.844212865Z  mandb not found. The rclone man docs will not be installed.
+2023-10-17T09:04:03.909434398Z  
+2023-10-17T09:04:03.909455906Z  rclone v1.64.0 has successfully installed.
+2023-10-17T09:04:03.909460000Z  Now run "rclone config" for setup. Check https://rclone.org/docs/ for more details.
+2023-10-17T09:04:03.909464244Z  

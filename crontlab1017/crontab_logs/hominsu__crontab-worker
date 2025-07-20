@@ -1,0 +1,12 @@
+2023-10-17T09:03:50.806614855Z  original error: *fs.PathError open ./worker.json: no such file or directory
+2023-10-17T09:03:50.806657032Z  stack trace: 
+2023-10-17T09:03:50.806660600Z  open ./worker.json: no such file or directory
+2023-10-17T09:03:50.806663828Z  read conf file bytes failed
+2023-10-17T09:03:50.806666634Z  cronTab/worker/config.InitialConfig
+2023-10-17T09:03:50.806669649Z  	/go/src/app/worker/config/defs.go:27
+2023-10-17T09:03:50.806672302Z  main.main
+2023-10-17T09:03:50.806674884Z  	/go/src/app/worker/main/main.go:59
+2023-10-17T09:03:50.806677567Z  runtime.main
+2023-10-17T09:03:50.806680238Z  	/usr/local/go/src/runtime/proc.go:255
+2023-10-17T09:03:50.806682943Z  runtime.goexit
+2023-10-17T09:03:50.806685630Z  	/usr/local/go/src/runtime/asm_amd64.s:1581

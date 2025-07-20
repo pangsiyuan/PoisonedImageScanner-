@@ -1,0 +1,5 @@
+2023-10-17T09:04:03.282605130Z  starting crontab-ui...
+2023-10-17T09:04:03.805304062Z  Cron db path: /data/crontabs/db
+2023-10-17T09:04:03.808412954Z  Path to crond files set using env variables /data/crontabs
+2023-10-17T09:04:03.890752974Z  Node version: 16.15.0
+2023-10-17T09:04:03.890773077Z  Crontab UI (0.3.16) is running at http://0.0.0.0:8000

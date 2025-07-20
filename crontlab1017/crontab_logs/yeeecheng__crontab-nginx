@@ -1,0 +1,14 @@
+2023-10-17T09:03:43.190433623Z  Starting periodic command scheduler: cron2023/10/17 09:03:43 [notice] 9#9: using the "epoll" event method
+2023-10-17T09:03:43.190469271Z  2023/10/17 09:03:43 [notice] 9#9: nginx/1.23.4
+2023-10-17T09:03:43.190472804Z  2023/10/17 09:03:43 [notice] 9#9: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023-10-17T09:03:43.190475761Z  2023/10/17 09:03:43 [notice] 9#9: OS: Linux 3.10.0-1127.19.1.el7.x86_64
+2023-10-17T09:03:43.190479002Z  2023/10/17 09:03:43 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023-10-17T09:03:43.190482091Z  2023/10/17 09:03:43 [notice] 9#9: start worker processes
+2023-10-17T09:03:43.190484916Z  2023/10/17 09:03:43 [notice] 9#9: start worker process 16
+2023-10-17T09:03:43.190488033Z  2023/10/17 09:03:43 [notice] 9#9: start worker process 17
+2023-10-17T09:03:43.190491045Z  2023/10/17 09:03:43 [notice] 9#9: start worker process 18
+2023-10-17T09:03:43.190494282Z  2023/10/17 09:03:43 [notice] 9#9: start worker process 19
+2023-10-17T09:03:43.207471776Z  .
+2023-10-17T09:03:44.945416177Z  /usr/share/nginx/html/img/weather_1.svg: No such file or directory
+2023-10-17T09:03:44.948549318Z  /usr/share/nginx/html/img/weather_2.svg: No such file or directory
+2023-10-17T09:03:44.950807348Z  /usr/share/nginx/html/img/weather_3.svg: No such file or directory

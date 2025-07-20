@@ -1,0 +1,2 @@
+2023-10-17T08:25:32.352243375Z  tail: cannot open '/var/log/cron.log' for reading: No such file or directory
+2023-10-17T08:25:32.352274733Z  tail: no files remaining

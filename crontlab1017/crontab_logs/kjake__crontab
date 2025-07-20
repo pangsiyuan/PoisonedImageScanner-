@@ -1,0 +1,2 @@
+2023-10-17T08:25:30.969888196Z  cp: omitting directory '/usr/share/zoneinfo'
+2023-10-17T08:25:30.977555821Z  stat: can't stat '/var/run/docker.sock': No such file or directory

@@ -1,0 +1,9 @@
+IMAGE                                                                     CREATED         CREATED BY                                                                                                         SIZE      COMMENT
+sha256:46f1f3bc3f530b08c4ad9f27588bedb5a3c004a4927d8c13b06dea7d71c254fe   21 months ago   /bin/sh -c #(nop)  USER crontab-operator                                                                           0B        
+<missing>                                                                 21 months ago   /bin/sh -c #(nop)  ENTRYPOINT ["/usr/local/bin/entrypoint"]                                                        0B        
+<missing>                                                                 21 months ago   /bin/sh -c /usr/local/bin/user_setup                                                                               630B      
+<missing>                                                                 21 months ago   /bin/sh -c #(nop) COPY dir:96e35adf5cbb55dda77fda8d427bf1341e102adf30203f99bc9a61bfb01026ce in /usr/local/bin/     47.2MB    
+<missing>                                                                 21 months ago   /bin/sh -c #(nop) WORKDIR /usr/local/bin                                                                           0B        
+<missing>                                                                 21 months ago   /bin/sh -c #(nop)  ENV OPERATOR=crontab-operator WORKDIR=/usr/local/bin USER_UID=1001 USER_NAME=crontab-operator   0B        
+<missing>                                                                 4 years ago                                                                                                                        1.63kB    
+<missing>                                                                 4 years ago                                                                                                                        79.1MB    Imported from -

@@ -1,0 +1,15 @@
+2023-10-17T09:03:32.326651377Z  [###] crontab-executor started with these parameters: *
+2023-10-17T09:03:32.326667295Z  
+2023-10-17T09:03:32.326670003Z  [###] adding these crontab files:
+2023-10-17T09:03:32.326678201Z  
+2023-10-17T09:03:32.330900279Z  * /etc/cron/000-crontab
+2023-10-17T09:03:32.335451515Z  
+2023-10-17T09:03:32.335462808Z  [###] resulting crontab:
+2023-10-17T09:03:32.335465532Z  
+2023-10-17T09:03:32.335467593Z  @reboot echo "$(date) | crontab-executor started successfully" >/out 2>&1
+2023-10-17T09:03:32.335470311Z  
+2023-10-17T09:03:32.335472278Z  [###] cron starting now
+2023-10-17T09:03:32.335474357Z  
+2023-10-17T09:03:32.335476282Z  crond[20]: crond (busybox 1.31.1) started, log level 8
+2023-10-17T09:03:32.336112445Z  crond[20]: USER root pid  21 cmd echo "$(date) | crontab-executor started successfully" >/out 2>&1
+2023-10-17T09:03:32.336997561Z  Tue Oct 17 09:03:32 UTC 2023 | crontab-executor started successfully

@@ -1,0 +1,19 @@
+2023-10-17T09:05:53.055191339Z  Traceback (most recent call last):
+2023-10-17T09:05:53.055231201Z    File "/usr/local/lib/python3.6/site-packages/mysql/connector/connection_cext.py", line 232, in _open_connection
+2023-10-17T09:05:53.062916982Z      self._cmysql.connect(**cnx_kwargs)
+2023-10-17T09:05:53.062924322Z  _mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on 'lenexa-eks-db-1.cwhmkpppngea.ap-southeast-2.rds.amazonaws.com:3306' (110)
+2023-10-17T09:05:53.062926671Z  
+2023-10-17T09:05:53.062928727Z  During handling of the above exception, another exception occurred:
+2023-10-17T09:05:53.062930774Z  
+2023-10-17T09:05:53.062932705Z  Traceback (most recent call last):
+2023-10-17T09:05:53.062934667Z    File "main.py", line 29, in <module>
+2023-10-17T09:05:53.063508651Z      database=DB_NAME)
+2023-10-17T09:05:53.063524579Z    File "/usr/local/lib/python3.6/site-packages/mysql/connector/__init__.py", line 272, in connect
+2023-10-17T09:05:53.064137839Z      return CMySQLConnection(*args, **kwargs)
+2023-10-17T09:05:53.064143455Z    File "/usr/local/lib/python3.6/site-packages/mysql/connector/connection_cext.py", line 85, in __init__
+2023-10-17T09:05:53.064146810Z      self.connect(**kwargs)
+2023-10-17T09:05:53.064148900Z    File "/usr/local/lib/python3.6/site-packages/mysql/connector/abstracts.py", line 1003, in connect
+2023-10-17T09:05:53.069472094Z      self._open_connection()
+2023-10-17T09:05:53.069487172Z    File "/usr/local/lib/python3.6/site-packages/mysql/connector/connection_cext.py", line 235, in _open_connection
+2023-10-17T09:05:53.069489579Z      sqlstate=exc.sqlstate)
+2023-10-17T09:05:53.069491635Z  mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on 'lenexa-eks-db-1.cwhmkpppngea.ap-southeast-2.rds.amazonaws.com:3306' (110)

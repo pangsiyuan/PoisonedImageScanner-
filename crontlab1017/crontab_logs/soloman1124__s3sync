@@ -1,0 +1,4 @@
+2023-10-17T09:04:16.846052129Z  sync from s3:///
+2023-10-17T09:04:19.089498255Z  ERROR: /root/.s3cfg: None
+2023-10-17T09:04:19.089515783Z  ERROR: Configuration file not available.
+2023-10-17T09:04:19.089518743Z  ERROR: Consider using --configure parameter to create one.

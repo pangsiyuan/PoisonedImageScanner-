@@ -1,0 +1,41 @@
+2023-10-17T09:04:24.589393688Z  s6-rc: info: service s6rc-oneshot-runner: starting
+2023-10-17T09:04:24.596615088Z  s6-rc: info: service s6rc-oneshot-runner successfully started
+2023-10-17T09:04:24.597814919Z  s6-rc: info: service fix-attrs: starting
+2023-10-17T09:04:24.597826018Z  s6-rc: info: service initialize: starting
+2023-10-17T09:04:24.605306736Z  s6-rc: info: service fix-attrs successfully started
+2023-10-17T09:04:24.605403641Z  s6-rc: info: service legacy-cont-init: starting
+2023-10-17T09:04:24.608581111Z  s6-rc: info: service legacy-cont-init successfully started
+2023-10-17T09:04:24.616254262Z  [container-prep] Setting user ID to: 911
+2023-10-17T09:04:24.619225556Z  [container-prep] usermod: no changes
+2023-10-17T09:04:24.619235854Z  [container-prep] Setting group ID to: 911
+2023-10-17T09:04:24.627838599Z  [container-prep] Creating crontab directories
+2023-10-17T09:04:24.631422896Z  [container-prep] created directory: '/config/15min'
+2023-10-17T09:04:24.631432267Z  [container-prep] created directory: '/config/hourly'
+2023-10-17T09:04:24.631435880Z  [container-prep] created directory: '/config/daily'
+2023-10-17T09:04:24.631438912Z  [container-prep] created directory: '/config/sunday'
+2023-10-17T09:04:24.631445691Z  [container-prep] created directory: '/config/monday'
+2023-10-17T09:04:24.631449074Z  [container-prep] created directory: '/config/tuesday'
+2023-10-17T09:04:24.631451760Z  [container-prep] created directory: '/config/wednesday'
+2023-10-17T09:04:24.631454813Z  [container-prep] created directory: '/config/thursday'
+2023-10-17T09:04:24.631457783Z  [container-prep] created directory: '/config/friday'
+2023-10-17T09:04:24.631460914Z  [container-prep] created directory: '/config/saturday'
+2023-10-17T09:04:24.631463908Z  [container-prep] created directory: '/config/monthly'
+2023-10-17T09:04:24.631467064Z  [container-prep] Setting directory permissions
+2023-10-17T09:04:24.631470028Z  [container-prep] changed ownership of '/config/friday' to 911:911
+2023-10-17T09:04:24.631473208Z  [container-prep] changed ownership of '/config/sunday' to 911:911
+2023-10-17T09:04:24.631476016Z  [container-prep] changed ownership of '/config/monday' to 911:911
+2023-10-17T09:04:24.631478824Z  [container-prep] changed ownership of '/config/monthly' to 911:911
+2023-10-17T09:04:24.631481774Z  [container-prep] changed ownership of '/config/thursday' to 911:911
+2023-10-17T09:04:24.631484743Z  [container-prep] changed ownership of '/config/daily' to 911:911
+2023-10-17T09:04:24.631487530Z  [container-prep] changed ownership of '/config/wednesday' to 911:911
+2023-10-17T09:04:24.631490570Z  [container-prep] changed ownership of '/config/saturday' to 911:911
+2023-10-17T09:04:24.631493558Z  [container-prep] changed ownership of '/config/15min' to 911:911
+2023-10-17T09:04:24.631496484Z  [container-prep] changed ownership of '/config/hourly' to 911:911
+2023-10-17T09:04:24.631503926Z  [container-prep] changed ownership of '/config/tuesday' to 911:911
+2023-10-17T09:04:24.631507195Z  [container-prep] changed ownership of '/config' to 911:911
+2023-10-17T09:04:24.631510254Z  [container-prep] Ensuring scripts are executable
+2023-10-17T09:04:24.634425269Z  s6-rc: info: service initialize successfully started
+2023-10-17T09:04:24.634436858Z  s6-rc: info: service crond: starting
+2023-10-17T09:04:24.634440241Z  s6-rc: info: service crond successfully started
+2023-10-17T09:04:24.634443491Z  s6-rc: info: service legacy-services: starting
+2023-10-17T09:04:24.642039331Z  s6-rc: info: service legacy-services successfully started

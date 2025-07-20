@@ -1,0 +1,16 @@
+2023-10-17T09:03:37.596433444Z  
+2023-10-17T09:03:37.596458858Z  > crontab@1.0.0 start /app
+2023-10-17T09:03:37.596462793Z  > node index.js
+2023-10-17T09:03:37.596465777Z  
+2023-10-17T09:03:37.668372945Z  Please set comamnd/crontab of env
+2023-10-17T09:03:37.674194177Z  [37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+2023-10-17T09:03:37.674209289Z  [0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+2023-10-17T09:03:37.674213597Z  [0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m crontab@1.0.0 start: `node index.js`
+2023-10-17T09:03:37.674217685Z  [0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+2023-10-17T09:03:37.674221537Z  [0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+2023-10-17T09:03:37.674225237Z  [0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the crontab@1.0.0 start script.
+2023-10-17T09:03:37.674229078Z  [0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+2023-10-17T09:03:37.677020242Z  [0m
+2023-10-17T09:03:37.677029972Z  [37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+2023-10-17T09:03:37.677033024Z  [0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /root/.npm/_logs/2023-10-17T09_03_37_673Z-debug.log
+2023-10-17T09:03:37.777706658Z  [0m

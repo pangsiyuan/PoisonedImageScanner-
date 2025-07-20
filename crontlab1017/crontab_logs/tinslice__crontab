@@ -1,0 +1,13 @@
+2023-10-17T09:03:27.771884212Z  2023-10-17 09:03:27,771 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-17T09:03:27.771913958Z  2023-10-17 09:03:27,771 INFO Included extra file "/etc/supervisord.d/cron.conf" during parsing
+2023-10-17T09:03:27.776988555Z  2023-10-17 09:03:27,776 INFO supervisord started with pid 1
+2023-10-17T09:03:28.783968895Z  2023-10-17 09:03:28,779 INFO spawned: 'cron-logs' with pid 9
+2023-10-17T09:03:28.783990122Z  2023-10-17 09:03:28,780 INFO spawned: 'cron-run' with pid 10
+2023-10-17T09:03:28.797520361Z  crond[13]: crond (busybox 1.31.1) started, log level 8
+2023-10-17T09:03:29.784663458Z  
+2023-10-17T09:03:29.784682565Z  == prepare crond config ==
+2023-10-17T09:03:29.784686242Z  
+2023-10-17T09:03:29.784689572Z  == crond service started ==
+2023-10-17T09:03:29.784693200Z  
+2023-10-17T09:03:29.784696665Z  2023-10-17 09:03:29,784 INFO success: cron-logs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:03:29.784700576Z  2023-10-17 09:03:29,784 INFO success: cron-run entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

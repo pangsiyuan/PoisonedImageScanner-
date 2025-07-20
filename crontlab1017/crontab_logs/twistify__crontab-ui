@@ -1,0 +1,7 @@
+2023-10-17T08:25:31.338814950Z  crond[7]: crond (busybox 1.25.1) started, log level 8
+2023-10-17T08:25:31.941411500Z  Node version: 6.9.2
+2023-10-17T08:25:31.943339081Z  Crontab UI is running at http://0.0.0.0:8000
+2023-10-17T08:30:00.340777654Z  crond[7]: USER root pid  18 cmd run-parts /etc/periodic/15min
+2023-10-17T08:45:00.342418936Z  crond[7]: USER root pid  20 cmd run-parts /etc/periodic/15min
+2023-10-17T09:00:00.344315739Z  crond[7]: USER root pid  22 cmd run-parts /etc/periodic/15min
+2023-10-17T09:00:00.344339306Z  crond[7]: USER root pid  23 cmd run-parts /etc/periodic/hourly

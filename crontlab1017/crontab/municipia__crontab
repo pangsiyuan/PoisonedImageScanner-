@@ -1,0 +1,8 @@
+IMAGE                                                                     CREATED         CREATED BY                                                                                                       SIZE      COMMENT
+sha256:10d05f222fe9146f4d177fe1c1133eb3d228943cc35e249155cb1fc41cd2edef   16 months ago   /bin/sh -c #(nop)  CMD ["cron" "-f" "-l" "2"]                                                                    0B        
+<missing>                                                                 16 months ago   /bin/sh -c #(nop)  ENTRYPOINT ["/entrypoint.sh"]                                                                 0B        
+<missing>                                                                 16 months ago   /bin/sh -c chmod +x /entrypoint.sh                                                                               304B      
+<missing>                                                                 16 months ago   /bin/sh -c #(nop) ADD file:4bf2c72a0afd234fe26645514e35af32c1592ec86bd66a127c5f1ece75313c57 in /entrypoint.sh    304B      
+<missing>                                                                 16 months ago   /bin/sh -c apt-get update -y &&   apt-get -y install postgresql-client cron                                      114MB     
+<missing>                                                                 16 months ago   /bin/sh -c #(nop)  CMD ["bash"]                                                                                  0B        
+<missing>                                                                 16 months ago   /bin/sh -c #(nop) ADD file:dd3d4b31d7f1d4062ad0eb2d85dba064cea067b1eb4a8b89a0b593ea90001cdf in /                 124MB     

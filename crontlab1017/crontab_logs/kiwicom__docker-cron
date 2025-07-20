@@ -1,0 +1,2 @@
+2023-10-17T09:04:18.634901892Z  Set environment variable CRONTAB
+2023-10-17T09:04:18.634934356Z  Example: 0 3 * * * echo hi

@@ -1,0 +1,12 @@
+2023-10-17T09:03:47.586446940Z  original error: *fs.PathError open ./master.json: no such file or directory
+2023-10-17T09:03:47.586488907Z  stack trace: 
+2023-10-17T09:03:47.586493188Z  open ./master.json: no such file or directory
+2023-10-17T09:03:47.586496468Z  read conf file bytes failed
+2023-10-17T09:03:47.586499981Z  cronTab/master/config.InitialConfig
+2023-10-17T09:03:47.586502960Z  	/go/src/app/master/config/defs.go:27
+2023-10-17T09:03:47.586506348Z  main.main
+2023-10-17T09:03:47.586509169Z  	/go/src/app/master/main/main.go:40
+2023-10-17T09:03:47.586512258Z  runtime.main
+2023-10-17T09:03:47.586515183Z  	/usr/local/go/src/runtime/proc.go:255
+2023-10-17T09:03:47.586518344Z  runtime.goexit
+2023-10-17T09:03:47.586521215Z  	/usr/local/go/src/runtime/asm_amd64.s:1581

@@ -1,0 +1,5 @@
+2023-10-17T08:25:29.908549224Z  Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+2023-10-17T08:25:29.909988796Z  ==> File: /var/spool/cron/crontabs/root
+2023-10-17T08:25:29.912403643Z  
+2023-10-17T08:25:29.912414776Z  ==> Start scheduled job at: 2023-10-17 08:25:29
+2023-10-17T08:25:29.930675822Z  crond: crond (busybox 1.35.0) started, log level 8

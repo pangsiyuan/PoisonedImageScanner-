@@ -1,0 +1,12 @@
+2023-10-17T09:04:14.199093544Z  no crontab for root
+2023-10-17T09:04:14.211148743Z  tail: unrecognized file system type 0x794c7630 for '/var/log/cron.log'. please report this to bug-coreutils@gnu.org. reverting to polling
+2023-10-17T09:05:02.215311971Z  docker-phalcon-crontab is running
+2023-10-17T09:06:02.219544396Z  docker-phalcon-crontab is running
+2023-10-17T09:07:02.223860877Z  docker-phalcon-crontab is running
+2023-10-17T09:08:02.228078706Z  docker-phalcon-crontab is running
+2023-10-17T09:09:02.232348739Z  docker-phalcon-crontab is running
+2023-10-17T09:10:02.236513286Z  docker-phalcon-crontab is running
+2023-10-17T09:11:02.240686775Z  docker-phalcon-crontab is running
+2023-10-17T09:12:02.244859690Z  docker-phalcon-crontab is running
+2023-10-17T09:13:02.249099903Z  docker-phalcon-crontab is running
+2023-10-17T09:14:02.253344424Z  docker-phalcon-crontab is running

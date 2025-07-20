@@ -1,0 +1,141 @@
+2023-10-17T09:04:04.747619842Z  crond[1]: crond (busybox 1.27.2) started, log level 8
+2023-10-17T09:05:00.748982103Z  crond[1]: USER root pid   6 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:05:00.749457122Z  crond[1]: USER root pid   7 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:05:00.749470367Z  Hello world
+2023-10-17T09:05:00.751813441Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:05:00.751823674Z  
+2023-10-17T09:05:00.751827048Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:05:00.751829503Z  
+2023-10-17T09:05:00.751836319Z  Run PROG, display resource usage when it exits
+2023-10-17T09:05:00.751838702Z  
+2023-10-17T09:05:00.751840834Z  	-v	Verbose
+2023-10-17T09:05:00.751843351Z  	-p	POSIX output format
+2023-10-17T09:05:00.751845578Z  	-f FMT	Custom format
+2023-10-17T09:05:00.751847822Z  	-o FILE	Write result to FILE
+2023-10-17T09:05:00.751850250Z  	-a	Append (else overwrite)
+2023-10-17T09:06:00.749622173Z  crond[1]: USER root pid   9 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:06:00.749738348Z  crond[1]: USER root pid  10 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:06:00.749884093Z  Hello world
+2023-10-17T09:06:00.752432310Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:06:00.752441878Z  
+2023-10-17T09:06:00.752444398Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:06:00.752447052Z  
+2023-10-17T09:06:00.752449227Z  Run PROG, display resource usage when it exits
+2023-10-17T09:06:00.752451725Z  
+2023-10-17T09:06:00.752454620Z  	-v	Verbose
+2023-10-17T09:06:00.752458218Z  	-p	POSIX output format
+2023-10-17T09:06:00.752461452Z  	-f FMT	Custom format
+2023-10-17T09:06:00.752465381Z  	-o FILE	Write result to FILE
+2023-10-17T09:06:00.752467730Z  	-a	Append (else overwrite)
+2023-10-17T09:07:00.750184157Z  crond[1]: USER root pid  12 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:07:00.750501889Z  Hello world
+2023-10-17T09:07:00.750845091Z  crond[1]: USER root pid  13 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:07:00.753103644Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:07:00.753113316Z  
+2023-10-17T09:07:00.753115670Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:07:00.753118621Z  
+2023-10-17T09:07:00.753120927Z  Run PROG, display resource usage when it exits
+2023-10-17T09:07:00.753123221Z  
+2023-10-17T09:07:00.753131727Z  	-v	Verbose
+2023-10-17T09:07:00.753134088Z  	-p	POSIX output format
+2023-10-17T09:07:00.753136141Z  	-f FMT	Custom format
+2023-10-17T09:07:00.753138186Z  	-o FILE	Write result to FILE
+2023-10-17T09:07:00.753140248Z  	-a	Append (else overwrite)
+2023-10-17T09:08:00.751202639Z  crond[1]: USER root pid  15 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:08:00.751649519Z  crond[1]: USER root pid  16 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:08:00.751662113Z  Hello world
+2023-10-17T09:08:00.754000670Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:08:00.754010004Z  
+2023-10-17T09:08:00.754012417Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:08:00.754014713Z  
+2023-10-17T09:08:00.754016970Z  Run PROG, display resource usage when it exits
+2023-10-17T09:08:00.754019220Z  
+2023-10-17T09:08:00.754021376Z  	-v	Verbose
+2023-10-17T09:08:00.754024048Z  	-p	POSIX output format
+2023-10-17T09:08:00.754026331Z  	-f FMT	Custom format
+2023-10-17T09:08:00.754028643Z  	-o FILE	Write result to FILE
+2023-10-17T09:08:00.754030914Z  	-a	Append (else overwrite)
+2023-10-17T09:09:00.752069360Z  crond[1]: USER root pid  18 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:09:00.752082625Z  crond[1]: USER root pid  19 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:09:00.752085471Z  Hello world
+2023-10-17T09:09:00.754642249Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:09:00.754652712Z  
+2023-10-17T09:09:00.754656875Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:09:00.754660612Z  
+2023-10-17T09:09:00.754663775Z  Run PROG, display resource usage when it exits
+2023-10-17T09:09:00.754667787Z  
+2023-10-17T09:09:00.754669970Z  	-v	Verbose
+2023-10-17T09:09:00.754672305Z  	-p	POSIX output format
+2023-10-17T09:09:00.754674642Z  	-f FMT	Custom format
+2023-10-17T09:09:00.754676929Z  	-o FILE	Write result to FILE
+2023-10-17T09:09:00.754679279Z  	-a	Append (else overwrite)
+2023-10-17T09:10:00.752464851Z  crond[1]: USER root pid  21 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:10:00.752707583Z  Hello world
+2023-10-17T09:10:00.752875630Z  crond[1]: USER root pid  22 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:10:00.755269918Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:10:00.755276825Z  
+2023-10-17T09:10:00.755285625Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:10:00.755287895Z  
+2023-10-17T09:10:00.755289857Z  Run PROG, display resource usage when it exits
+2023-10-17T09:10:00.755291985Z  
+2023-10-17T09:10:00.755293881Z  	-v	Verbose
+2023-10-17T09:10:00.755295940Z  	-p	POSIX output format
+2023-10-17T09:10:00.755298104Z  	-f FMT	Custom format
+2023-10-17T09:10:00.755300090Z  	-o FILE	Write result to FILE
+2023-10-17T09:10:00.755302128Z  	-a	Append (else overwrite)
+2023-10-17T09:11:00.753312252Z  crond[1]: USER root pid  24 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:11:00.753474905Z  crond[1]: USER root pid  25 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:11:00.753576781Z  Hello world
+2023-10-17T09:11:00.756134240Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:11:00.756143536Z  
+2023-10-17T09:11:00.756149736Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:11:00.756152054Z  
+2023-10-17T09:11:00.756154242Z  Run PROG, display resource usage when it exits
+2023-10-17T09:11:00.756156512Z  
+2023-10-17T09:11:00.756159026Z  	-v	Verbose
+2023-10-17T09:11:00.756165749Z  	-p	POSIX output format
+2023-10-17T09:11:00.756168060Z  	-f FMT	Custom format
+2023-10-17T09:11:00.756170394Z  	-o FILE	Write result to FILE
+2023-10-17T09:11:00.756172849Z  	-a	Append (else overwrite)
+2023-10-17T09:12:00.753945095Z  crond[1]: USER root pid  27 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:12:00.754116417Z  crond[1]: USER root pid  28 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:12:00.754214506Z  Hello world
+2023-10-17T09:12:00.756819901Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:12:00.756833000Z  
+2023-10-17T09:12:00.756836527Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:12:00.756838952Z  
+2023-10-17T09:12:00.756841313Z  Run PROG, display resource usage when it exits
+2023-10-17T09:12:00.756843585Z  
+2023-10-17T09:12:00.756845858Z  	-v	Verbose
+2023-10-17T09:12:00.756848207Z  	-p	POSIX output format
+2023-10-17T09:12:00.756850448Z  	-f FMT	Custom format
+2023-10-17T09:12:00.756852745Z  	-o FILE	Write result to FILE
+2023-10-17T09:12:00.756855094Z  	-a	Append (else overwrite)
+2023-10-17T09:13:00.754588135Z  crond[1]: USER root pid  30 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:13:00.754872148Z  Hello world
+2023-10-17T09:13:00.755098515Z  crond[1]: USER root pid  31 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:13:00.757497312Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:13:00.757505670Z  
+2023-10-17T09:13:00.757507981Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:13:00.757510138Z  
+2023-10-17T09:13:00.757512113Z  Run PROG, display resource usage when it exits
+2023-10-17T09:13:00.757514120Z  
+2023-10-17T09:13:00.757516020Z  	-v	Verbose
+2023-10-17T09:13:00.757518165Z  	-p	POSIX output format
+2023-10-17T09:13:00.757524630Z  	-f FMT	Custom format
+2023-10-17T09:13:00.757526768Z  	-o FILE	Write result to FILE
+2023-10-17T09:13:00.757528854Z  	-a	Append (else overwrite)
+2023-10-17T09:14:00.755571523Z  crond[1]: USER root pid  33 cmd echo "Hello world" >> /dev/stdout 2>&1
+2023-10-17T09:14:00.755695754Z  crond[1]: USER root pid  34 cmd time >> /dev/stdout 2>&1
+2023-10-17T09:14:00.755851512Z  Hello world
+2023-10-17T09:14:00.758388240Z  BusyBox v1.27.2 (2018-06-06 09:08:44 UTC) multi-call binary.
+2023-10-17T09:14:00.758394085Z  
+2023-10-17T09:14:00.758396503Z  Usage: time [-vpa] [-o FILE] PROG ARGS
+2023-10-17T09:14:00.758398850Z  
+2023-10-17T09:14:00.758401381Z  Run PROG, display resource usage when it exits
+2023-10-17T09:14:00.758403728Z  
+2023-10-17T09:14:00.758405842Z  	-v	Verbose
+2023-10-17T09:14:00.758408325Z  	-p	POSIX output format
+2023-10-17T09:14:00.758410660Z  	-f FMT	Custom format
+2023-10-17T09:14:00.758412944Z  	-o FILE	Write result to FILE
+2023-10-17T09:14:00.758415269Z  	-a	Append (else overwrite)

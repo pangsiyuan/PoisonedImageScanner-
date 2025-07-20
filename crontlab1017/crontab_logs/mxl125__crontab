@@ -1,0 +1,2 @@
+2023-10-17T09:03:28.341236493Z  Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+2023-10-17T09:03:28.391985583Z  /usr/local/bin/cronjobs.sh: line 49: syntax error: unexpected "(" (expecting "}")

@@ -1,0 +1,70 @@
+2023-10-17T09:03:36.822139034Z  [s6-init] making user provided files available at /var/run/s6/etc...exited 0.
+2023-10-17T09:03:36.865007946Z  [s6-init] ensuring user provided files have correct perms...exited 0.
+2023-10-17T09:03:36.865030251Z  [fix-attrs.d] applying ownership & permissions fixes...
+2023-10-17T09:03:36.866558291Z  [fix-attrs.d] done.
+2023-10-17T09:03:36.867392790Z  [cont-init.d] executing container initialization scripts...
+2023-10-17T09:03:36.869557341Z  [cont-init.d] 01-envfile: executing... 
+2023-10-17T09:03:36.881838781Z  [cont-init.d] 01-envfile: exited 0.
+2023-10-17T09:03:36.882487678Z  [cont-init.d] 10-adduser: executing... 
+2023-10-17T09:03:36.909695806Z  usermod: no changes
+2023-10-17T09:03:36.909710572Z  
+2023-10-17T09:03:36.909713101Z  -------------------------------------
+2023-10-17T09:03:36.909715541Z            _         ()
+2023-10-17T09:03:36.909717859Z           | |  ___   _    __
+2023-10-17T09:03:36.909720306Z           | | / __| | |  /  \ 
+2023-10-17T09:03:36.909722647Z           | | \__ \ | | | () |
+2023-10-17T09:03:36.909725254Z           |_| |___/ |_|  \__/
+2023-10-17T09:03:36.909727743Z  
+2023-10-17T09:03:36.909729955Z  
+2023-10-17T09:03:36.909732272Z  Brought to you by linuxserver.io
+2023-10-17T09:03:36.909734611Z  We gratefully accept donations at:
+2023-10-17T09:03:36.909736930Z  https://www.linuxserver.io/donate/
+2023-10-17T09:03:36.909739505Z  -------------------------------------
+2023-10-17T09:03:36.909741807Z  GID/UID
+2023-10-17T09:03:36.909744223Z  -------------------------------------
+2023-10-17T09:03:36.913755536Z  
+2023-10-17T09:03:36.913772401Z  User uid:    911
+2023-10-17T09:03:36.913776131Z  User gid:    911
+2023-10-17T09:03:36.913779372Z  -------------------------------------
+2023-10-17T09:03:36.913782657Z  
+2023-10-17T09:03:36.917841996Z  [cont-init.d] 10-adduser: exited 0.
+2023-10-17T09:03:36.918574115Z  [cont-init.d] 99-custom-files: executing... 
+2023-10-17T09:03:36.922222950Z  [custom-init] no custom files found exiting...
+2023-10-17T09:03:36.922601154Z  [cont-init.d] 99-custom-files: exited 0.
+2023-10-17T09:03:36.923229480Z  [cont-init.d] done.
+2023-10-17T09:03:36.923984747Z  [services.d] starting services
+2023-10-17T09:03:36.929896560Z  [services.d] done.
+2023-10-17T09:03:37.324274177Z  2023-10-17 17:03:37,323 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-17T09:03:37.327537202Z  2023-10-17 17:03:37,327 INFO supervisord started with pid 224
+2023-10-17T09:03:38.331081896Z  2023-10-17 17:03:38,329 INFO spawned: 'crontabui' with pid 232
+2023-10-17T09:03:38.331105291Z  2023-10-17 17:03:38,330 INFO spawned: 'crontab' with pid 233
+2023-10-17T09:03:38.335237611Z  crond[233]: crond (busybox 1.30.1) started, log level 2
+2023-10-17T09:03:38.339608703Z  crond[233]: user:root entry:*/15	*	*	*	*	run-parts /etc/periodic/15min
+2023-10-17T09:03:38.339618649Z  crond[233]: user:root entry:0	*	*	*	*	run-parts /etc/periodic/hourly
+2023-10-17T09:03:38.339621620Z  crond[233]: user:root entry:0	2	*	*	*	run-parts /etc/periodic/daily
+2023-10-17T09:03:38.339624264Z  crond[233]: user:root entry:0	3	*	*	6	run-parts /etc/periodic/weekly
+2023-10-17T09:03:38.339626779Z  crond[233]: user:root entry:0	5	1	*	*	run-parts /etc/periodic/monthly
+2023-10-17T09:03:39.781136898Z  2023-10-17 17:03:39,780 INFO success: crontabui entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:03:39.781151321Z  2023-10-17 17:03:39,780 INFO success: crontab entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:04:00.339873059Z  crond[233]: wakeup dt=22
+2023-10-17T09:04:00.339891436Z  crond[233]: file root:
+2023-10-17T09:05:00.340043549Z  crond[233]: wakeup dt=60
+2023-10-17T09:05:00.340055306Z  crond[233]: file root:
+2023-10-17T09:06:00.340159813Z  crond[233]: wakeup dt=60
+2023-10-17T09:06:00.340169130Z  crond[233]: file root:
+2023-10-17T09:07:00.340248738Z  crond[233]: wakeup dt=60
+2023-10-17T09:07:00.340258467Z  crond[233]: file root:
+2023-10-17T09:08:00.340362967Z  crond[233]: wakeup dt=60
+2023-10-17T09:08:00.340381926Z  crond[233]: file root:
+2023-10-17T09:09:00.340499630Z  crond[233]: wakeup dt=60
+2023-10-17T09:09:00.340511298Z  crond[233]: file root:
+2023-10-17T09:10:00.340598324Z  crond[233]: wakeup dt=60
+2023-10-17T09:10:00.340619083Z  crond[233]: file root:
+2023-10-17T09:11:00.340664052Z  crond[233]: wakeup dt=60
+2023-10-17T09:11:00.340674790Z  crond[233]: file root:
+2023-10-17T09:12:00.340745009Z  crond[233]: wakeup dt=60
+2023-10-17T09:12:00.340755018Z  crond[233]: file root:
+2023-10-17T09:13:00.340865216Z  crond[233]: wakeup dt=60
+2023-10-17T09:13:00.340874094Z  crond[233]: file root:
+2023-10-17T09:14:00.340962206Z  crond[233]: wakeup dt=60
+2023-10-17T09:14:00.340971749Z  crond[233]: file root:

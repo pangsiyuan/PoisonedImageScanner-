@@ -1,0 +1,8 @@
+IMAGE                                                                     CREATED         CREATED BY                                                                                               SIZE      COMMENT
+sha256:371b84abc33d45e0ca7d88ca71026926a6ae79bd28806b500cb276a91f7e4c2f   15 months ago   /bin/sh -c #(nop)  CMD ["/usr/sbin/nginx" "-g" "daemon off;"]                                            0B        
+<missing>                                                                 15 months ago   /bin/sh -c #(nop)  EXPOSE 80                                                                             0B        
+<missing>                                                                 15 months ago   /bin/sh -c apt-get update && apt install man nano cron vim -y && yes | unminimize                        132MB     
+<missing>                                                                 15 months ago   /bin/sh -c chmod a+x /tmp/*.sh && /tmp/environnement.sh                                                  95.4MB    
+<missing>                                                                 15 months ago   /bin/sh -c #(nop) ADD multi:cff0782a3731a815dc4f78ad2b9b3cacce796c405133b389d4ffbef7a65daffa in /tmp/    185B      
+<missing>                                                                 16 months ago   /bin/sh -c #(nop)  CMD ["bash"]                                                                          0B        
+<missing>                                                                 16 months ago   /bin/sh -c #(nop) ADD file:440048faae869c09f5819655d93c479ac0282dace791dc6077f035c8481f45b8 in /         70.2MB    

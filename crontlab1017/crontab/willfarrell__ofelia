@@ -1,0 +1,3 @@
+IMAGE                                                                     CREATED       CREATED BY                                                                                          SIZE      COMMENT
+sha256:91d4fb0d40db013e6e7b236be25e9aa3b4dd97aeb4e2dcbe4b3ed54773f84e5f   6 years ago   /bin/sh -c #(nop)  CMD ["/main" "daemon" "--config" "/etc/ofelia/config.ini"]                       0B        
+<missing>                                                                 6 years ago   /bin/sh -c #(nop) ADD file:7f0d7c63200d3a1618b2507481ff07c32004152cc0003ea5b4b9c910ac1f2297 in /    10.6MB    

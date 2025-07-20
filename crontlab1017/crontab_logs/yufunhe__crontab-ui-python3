@@ -1,0 +1,27 @@
+2023-10-17T09:04:15.206364428Z  2023-10-17 09:04:15,205 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-17T09:04:15.208851080Z  2023-10-17 09:04:15,208 INFO supervisord started with pid 1
+2023-10-17T09:04:16.214527743Z  2023-10-17 09:04:16,212 INFO spawned: 'crontabui' with pid 7
+2023-10-17T09:04:16.214547726Z  2023-10-17 09:04:16,214 INFO spawned: 'crontab' with pid 8
+2023-10-17T09:04:16.217753943Z  crond[8]: crond (busybox 1.30.1) started, log level 2
+2023-10-17T09:04:17.590933099Z  2023-10-17 09:04:17,588 INFO success: crontabui entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:04:17.590951222Z  2023-10-17 09:04:17,588 INFO success: crontab entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-17T09:05:00.223104341Z  crond[8]: wakeup dt=44
+2023-10-17T09:05:00.223119649Z  crond[8]: file root:
+2023-10-17T09:06:00.223171307Z  crond[8]: wakeup dt=60
+2023-10-17T09:06:00.223190263Z  crond[8]: file root:
+2023-10-17T09:07:00.223283199Z  crond[8]: wakeup dt=60
+2023-10-17T09:07:00.223296189Z  crond[8]: file root:
+2023-10-17T09:08:00.223418123Z  crond[8]: wakeup dt=60
+2023-10-17T09:08:00.223435029Z  crond[8]: file root:
+2023-10-17T09:09:00.223539747Z  crond[8]: wakeup dt=60
+2023-10-17T09:09:00.223549840Z  crond[8]: file root:
+2023-10-17T09:10:00.223666682Z  crond[8]: wakeup dt=60
+2023-10-17T09:10:00.223680225Z  crond[8]: file root:
+2023-10-17T09:11:00.223796713Z  crond[8]: wakeup dt=60
+2023-10-17T09:11:00.223808834Z  crond[8]: file root:
+2023-10-17T09:12:00.223915433Z  crond[8]: wakeup dt=60
+2023-10-17T09:12:00.223928622Z  crond[8]: file root:
+2023-10-17T09:13:00.224048260Z  crond[8]: wakeup dt=60
+2023-10-17T09:13:00.224064117Z  crond[8]: file root:
+2023-10-17T09:14:00.224160475Z  crond[8]: wakeup dt=60
+2023-10-17T09:14:00.224173237Z  crond[8]: file root:

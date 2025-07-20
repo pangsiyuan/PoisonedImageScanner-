@@ -1,0 +1,135 @@
+2023-10-17T09:03:40.548355583Z  2023/10/17 09:03:40 I! Using config file: /etc/telegraf/telegraf.conf
+2023-10-17T09:03:40.556729995Z  2023-10-17T09:03:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:03:40.556747759Z  2023-10-17T09:03:40Z I! Starting Telegraf (version 1.2.1)
+2023-10-17T09:03:40.556750283Z  2023-10-17T09:03:40Z I! Loaded outputs: influxdb
+2023-10-17T09:03:40.556752578Z  2023-10-17T09:03:40Z I! Loaded inputs: inputs.disk inputs.diskio inputs.kernel inputs.mem inputs.processes inputs.swap inputs.system inputs.cpu
+2023-10-17T09:03:40.556754813Z  2023-10-17T09:03:40Z I! Tags enabled: host=9944527121da
+2023-10-17T09:03:40.556757040Z  2023-10-17T09:03:40Z I! Agent Config: Interval:10s, Quiet:false, Hostname:"9944527121da", Flush Interval:10s 
+2023-10-17T09:04:00.301649073Z  2023-10-17T09:04:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:04:00.308594326Z  2023-10-17T09:04:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:04:10.303422731Z  2023-10-17T09:04:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:04:10.303442291Z  2023-10-17T09:04:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:04:20.301912539Z  2023-10-17T09:04:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:04:20.301933375Z  2023-10-17T09:04:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:04:30.303513188Z  2023-10-17T09:04:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:04:30.306969414Z  2023-10-17T09:04:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:04:40.302233281Z  2023-10-17T09:04:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:04:40.302255300Z  2023-10-17T09:04:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:04:50.302571020Z  2023-10-17T09:04:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:04:50.302600442Z  2023-10-17T09:04:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:05:00.302738234Z  2023-10-17T09:05:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:05:00.302761397Z  2023-10-17T09:05:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:05:10.301898488Z  2023-10-17T09:05:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:05:10.303291336Z  2023-10-17T09:05:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:05:20.304197441Z  2023-10-17T09:05:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:05:20.304221866Z  2023-10-17T09:05:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:05:30.303000177Z  2023-10-17T09:05:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:05:30.303026163Z  2023-10-17T09:05:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:05:40.302409585Z  2023-10-17T09:05:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:05:40.304168409Z  2023-10-17T09:05:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:05:50.303715197Z  2023-10-17T09:05:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:05:50.303739538Z  2023-10-17T09:05:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:06:00.303629100Z  2023-10-17T09:06:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:06:00.303653164Z  2023-10-17T09:06:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:06:10.303839095Z  2023-10-17T09:06:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:06:10.303863772Z  2023-10-17T09:06:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:06:20.304047345Z  2023-10-17T09:06:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:06:20.304071363Z  2023-10-17T09:06:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:06:30.302781987Z  2023-10-17T09:06:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:06:30.304690358Z  2023-10-17T09:06:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:06:40.304406857Z  2023-10-17T09:06:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:06:40.304432233Z  2023-10-17T09:06:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:06:50.303119699Z  2023-10-17T09:06:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:06:50.305864180Z  2023-10-17T09:06:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:07:00.304746246Z  2023-10-17T09:07:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:07:00.304771750Z  2023-10-17T09:07:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:07:10.303531820Z  2023-10-17T09:07:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:07:10.305398102Z  2023-10-17T09:07:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:07:20.305039276Z  2023-10-17T09:07:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:07:20.305063687Z  2023-10-17T09:07:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:07:30.303074998Z  2023-10-17T09:07:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:07:30.305974606Z  2023-10-17T09:07:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:07:40.305206130Z  2023-10-17T09:07:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:07:40.305227197Z  2023-10-17T09:07:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:07:50.302315779Z  2023-10-17T09:07:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:07:50.306188017Z  2023-10-17T09:07:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:08:00.305903588Z  2023-10-17T09:08:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:08:00.306355982Z  2023-10-17T09:08:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:08:10.305499222Z  2023-10-17T09:08:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:08:10.305847897Z  2023-10-17T09:08:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:08:20.304553431Z  2023-10-17T09:08:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:08:20.306943015Z  2023-10-17T09:08:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:08:30.305512218Z  2023-10-17T09:08:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:08:30.306089968Z  2023-10-17T09:08:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:08:40.301865572Z  2023-10-17T09:08:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:08:40.306836604Z  2023-10-17T09:08:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:08:50.304589125Z  2023-10-17T09:08:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:08:50.307316655Z  2023-10-17T09:08:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:09:00.306777295Z  2023-10-17T09:09:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:09:00.306797977Z  2023-10-17T09:09:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:09:10.306920069Z  2023-10-17T09:09:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:09:10.306940193Z  2023-10-17T09:09:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:09:20.303449756Z  2023-10-17T09:09:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:09:20.307714404Z  2023-10-17T09:09:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:09:30.305890010Z  2023-10-17T09:09:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:09:30.307824547Z  2023-10-17T09:09:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:09:40.305515195Z  2023-10-17T09:09:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:09:40.307292335Z  2023-10-17T09:09:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:09:50.305479468Z  2023-10-17T09:09:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:09:50.307399577Z  2023-10-17T09:09:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:10:00.304878586Z  2023-10-17T09:10:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:10:00.310208026Z  2023-10-17T09:10:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:10:10.305824880Z  2023-10-17T09:10:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:10:10.309222954Z  2023-10-17T09:10:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:10:20.305507598Z  2023-10-17T09:10:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:10:20.308772624Z  2023-10-17T09:10:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:10:30.305511812Z  2023-10-17T09:10:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:10:30.308113867Z  2023-10-17T09:10:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:10:40.305517320Z  2023-10-17T09:10:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:10:40.308155427Z  2023-10-17T09:10:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:10:50.302628289Z  2023-10-17T09:10:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:10:50.309559016Z  2023-10-17T09:10:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:11:00.303086713Z  2023-10-17T09:11:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:11:00.309284379Z  2023-10-17T09:11:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:11:10.304107119Z  2023-10-17T09:11:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:11:10.309627447Z  2023-10-17T09:11:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:11:20.304898860Z  2023-10-17T09:11:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:11:20.309799639Z  2023-10-17T09:11:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:11:30.305533085Z  2023-10-17T09:11:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:11:30.310100107Z  2023-10-17T09:11:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:11:40.305509895Z  2023-10-17T09:11:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:11:40.309946478Z  2023-10-17T09:11:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:11:50.307440039Z  2023-10-17T09:11:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:11:50.310303507Z  2023-10-17T09:11:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:12:00.306510361Z  2023-10-17T09:12:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:12:00.310659393Z  2023-10-17T09:12:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:12:10.305519969Z  2023-10-17T09:12:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:12:10.311044248Z  2023-10-17T09:12:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:12:20.307499438Z  2023-10-17T09:12:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:12:20.310632635Z  2023-10-17T09:12:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:12:30.306497369Z  2023-10-17T09:12:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:12:30.310458513Z  2023-10-17T09:12:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:12:40.305490958Z  2023-10-17T09:12:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:12:40.310961661Z  2023-10-17T09:12:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:12:50.307504348Z  2023-10-17T09:12:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:12:50.310343270Z  2023-10-17T09:12:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:13:00.305510152Z  2023-10-17T09:13:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:13:00.310982103Z  2023-10-17T09:13:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:13:10.305521961Z  2023-10-17T09:13:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:13:10.310266085Z  2023-10-17T09:13:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:13:20.305509900Z  2023-10-17T09:13:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:13:20.310233873Z  2023-10-17T09:13:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:13:30.305506803Z  2023-10-17T09:13:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:13:30.310270075Z  2023-10-17T09:13:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:13:40.305471825Z  2023-10-17T09:13:40Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:13:40.310152599Z  2023-10-17T09:13:40Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:13:50.309492754Z  2023-10-17T09:13:50Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:13:50.310471923Z  2023-10-17T09:13:50Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:14:00.305542921Z  2023-10-17T09:14:00Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:14:00.310537548Z  2023-10-17T09:14:00Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:14:10.310325260Z  2023-10-17T09:14:10Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:14:10.310346860Z  2023-10-17T09:14:10Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:14:20.307490144Z  2023-10-17T09:14:20Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:14:20.310545662Z  2023-10-17T09:14:20Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster
+2023-10-17T09:14:30.306521050Z  2023-10-17T09:14:30Z E! Database creation failed: Post http://localhost:8086/query?db=&q=CREATE+DATABASE+%22telegraf%22: dial tcp 127.0.0.1:8086: getsockopt: connection refused
+2023-10-17T09:14:30.310508781Z  2023-10-17T09:14:30Z E! Error writing to output [influxdb]: Could not write to any InfluxDB server in cluster

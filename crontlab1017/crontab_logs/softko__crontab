@@ -1,0 +1,7 @@
+2023-10-17T09:04:00.211417011Z  11:04:00INFO: certbot copied into /etc/cron.d/certbot
+2023-10-17T09:04:00.216671486Z  11:04:00INFO: db_dump copied into /etc/cron.d/db_dump
+2023-10-17T09:04:00.221740571Z  11:04:00INFO: delete_old_dumps copied into /etc/cron.d/delete_old_dumps
+2023-10-17T09:04:00.228431223Z  11:04:00INFO: delete_old_logs copied into /etc/cron.d/delete_old_logs
+2023-10-17T09:04:00.228443932Z  11:04:00INFO: delete_old_streams copied into /etc/cron.d/delete_old_streams
+2023-10-17T09:04:00.231405593Z  11:04:00INFO: /etc/environment created
+2023-10-17T09:04:00.231651415Z  11:04:00 Running cron -f

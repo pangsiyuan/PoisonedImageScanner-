@@ -1,0 +1,10 @@
+IMAGE                                                                     CREATED       CREATED BY                                                                                           SIZE      COMMENT
+sha256:4e9abe2ae91d673c44c8c72971470571700bc3a90b53375aee1232397b278f25   3 years ago   /bin/sh -c #(nop)  ENV HOST=0.0.0.0                                                                  0B        
+<missing>                                                                 3 years ago   /bin/sh -c apk --no-cache add       wget       curl       bash       php5       php7                 21.3MB    
+<missing>                                                                 3 years ago   /bin/sh -c apk add tzdata; cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime; apk del tzdata   1.31MB    
+<missing>                                                                 3 years ago   /bin/sh -c #(nop)  LABEL description=Docker para rodar tarefas internas                              0B        
+<missing>                                                                 3 years ago   /bin/sh -c #(nop)  LABEL maintainer=Caue Santos                                                      0B        
+<missing>                                                                 3 years ago   /bin/sh -c #(nop) WORKDIR /scripts                                                                   0B        
+<missing>                                                                 3 years ago   /bin/sh -c mkdir /scripts                                                                            0B        
+<missing>                                                                 3 years ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]                                                                   0B        
+<missing>                                                                 3 years ago   /bin/sh -c #(nop) ADD file:e38375b009a2e2c9be7c62364fa76d52edf2a80e42d2f52cf80dfb13d578e967 in /     4.41MB    
